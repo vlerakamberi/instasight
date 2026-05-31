@@ -1,0 +1,878 @@
+2026-04-29 17:18:18,972 | INFO | main | Initializing database...
+2026-04-29 17:18:18,985 | INFO | main | Starting mock sync...
+2026-04-29 17:18:18,986 | INFO | sync_service | Account synced: demo_business
+2026-04-29 17:18:18,987 | INFO | sync_service | Post synced: mock_post_001
+2026-04-29 17:18:18,987 | INFO | sync_service | Post synced: mock_post_002
+2026-04-29 17:18:18,988 | INFO | sync_service | Sync completed successfully.
+2026-04-29 17:18:18,988 | INFO | main | Project setup test completed.
+2026-04-29 17:22:18,499 | INFO | sync_service | Account synced: demo_business
+2026-04-29 17:22:18,499 | INFO | sync_service | Post synced: mock_post_001
+2026-04-29 17:22:18,499 | INFO | sync_service | Post synced: mock_post_002
+2026-04-29 17:22:18,501 | INFO | sync_service | Sync completed successfully.
+2026-04-29 17:22:32,160 | INFO | sync_service | Account synced: demo_business
+2026-04-29 17:22:32,161 | INFO | sync_service | Post synced: mock_post_001
+2026-04-29 17:22:32,161 | INFO | sync_service | Post synced: mock_post_002
+2026-04-29 17:22:32,162 | INFO | sync_service | Sync completed successfully.
+2026-04-29 17:31:35,897 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-04-29 17:31:35,907 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-04-29 17:31:35,932 | INFO | sync_service | Account synced: demo_business
+2026-04-29 17:31:35,933 | INFO | sync_service | Post synced: mock_post_001
+2026-04-29 17:31:35,933 | INFO | sync_service | Post synced: mock_post_002
+2026-04-29 17:31:35,935 | INFO | sync_service | Sync completed successfully.
+2026-05-23 13:05:42,833 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:05:42,844 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:05:43,424 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:05:44,878 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:05:47,359 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:05:57,378 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:05:57,389 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:05:57,427 | INFO | sync_service | Account synced: demo_business
+2026-05-23 13:05:57,427 | INFO | sync_service | Post synced: mock_post_001
+2026-05-23 13:05:57,428 | INFO | sync_service | Post synced: mock_post_002
+2026-05-23 13:05:57,429 | INFO | sync_service | Sync completed successfully.
+2026-05-23 13:08:55,034 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:08:55,046 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:09:26,348 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:09:26,360 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:09:26,386 | INFO | sync_service | Account synced: demo_business
+2026-05-23 13:09:26,386 | INFO | sync_service | Post synced: mock_post_001
+2026-05-23 13:09:26,386 | INFO | sync_service | Post synced: mock_post_002
+2026-05-23 13:09:26,387 | INFO | sync_service | Sync completed successfully.
+2026-05-23 13:12:32,114 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:12:32,125 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:12:32,150 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:12:32,150 | INFO | sync_service | Fetching recent media...
+2026-05-23 13:12:32,150 | INFO | sync_service | Retrieved 2 posts for account demo_business
+2026-05-23 13:12:32,151 | INFO | sync_service | Account saved: demo_business (id=mock_account_001)
+2026-05-23 13:12:32,151 | INFO | sync_service | Post skipped (already exists): mock_post_001
+2026-05-23 13:12:32,151 | INFO | sync_service | Fetching insights for post: mock_post_001
+2026-05-23 13:12:32,151 | INFO | sync_service | Insights saved for post: mock_post_001
+2026-05-23 13:12:32,151 | INFO | sync_service | Post skipped (already exists): mock_post_002
+2026-05-23 13:12:32,151 | INFO | sync_service | Fetching insights for post: mock_post_002
+2026-05-23 13:12:32,152 | INFO | sync_service | Insights saved for post: mock_post_002
+2026-05-23 13:12:32,154 | INFO | sync_service | Sync completed: account=demo_business, posts_synced=0, insights_synced=2
+2026-05-23 13:12:41,688 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:12:41,699 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 13:12:41,726 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:12:41,726 | INFO | sync_service | Fetching recent media...
+2026-05-23 13:12:41,727 | INFO | sync_service | Retrieved 2 posts for account demo_business
+2026-05-23 13:12:41,727 | INFO | sync_service | Account saved: demo_business (id=mock_account_001)
+2026-05-23 13:12:41,728 | INFO | sync_service | Post saved: mock_post_001
+2026-05-23 13:12:41,728 | INFO | sync_service | Fetching insights for post: mock_post_001
+2026-05-23 13:12:41,728 | INFO | sync_service | Insights saved for post: mock_post_001
+2026-05-23 13:12:41,728 | INFO | sync_service | Post saved: mock_post_002
+2026-05-23 13:12:41,728 | INFO | sync_service | Fetching insights for post: mock_post_002
+2026-05-23 13:12:41,728 | INFO | sync_service | Insights saved for post: mock_post_002
+2026-05-23 13:12:41,730 | INFO | sync_service | Sync completed: account=demo_business, posts_synced=2, insights_synced=2
+2026-05-23 13:14:17,889 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:14:18,407 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:14:19,865 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:14:22,314 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:14:37,266 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:14:37,751 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:14:39,228 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:14:41,732 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:15:29,789 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:15:30,277 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:15:31,737 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:15:34,193 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:15:54,018 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:15:54,518 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:15:55,980 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:15:58,438 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/your_instagram_business_account_id?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=your_instagram_access_token
+2026-05-23 13:17:57,741 | INFO | sync_service | Fetching account profile...
+2026-05-23 13:17:58,425 | INFO | sync_service | Fetching recent media...
+2026-05-23 13:17:59,231 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-05-23 13:17:59,232 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-05-23 13:17:59,233 | INFO | sync_service | Post saved: 18171459604377771
+2026-05-23 13:17:59,233 | INFO | sync_service | Fetching insights for post: 18171459604377771
+2026-05-23 13:17:59,826 | WARNING | meta_client | Operation 'get_media_insights:18171459604377771' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:01,444 | WARNING | meta_client | Operation 'get_media_insights:18171459604377771' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:04,077 | ERROR | meta_client | Operation 'get_media_insights:18171459604377771' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:04,077 | ERROR | sync_service | Failed to sync insights for post 18171459604377771: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:04,077 | INFO | sync_service | Post saved: 17861066040071611
+2026-05-23 13:18:04,077 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-05-23 13:18:04,732 | WARNING | meta_client | Operation 'get_media_insights:17861066040071611' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:06,371 | WARNING | meta_client | Operation 'get_media_insights:17861066040071611' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:09,003 | ERROR | meta_client | Operation 'get_media_insights:17861066040071611' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:09,004 | ERROR | sync_service | Failed to sync insights for post 17861066040071611: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:09,004 | INFO | sync_service | Post saved: 17980298879439026
+2026-05-23 13:18:09,004 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-05-23 13:18:09,658 | WARNING | meta_client | Operation 'get_media_insights:17980298879439026' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:11,986 | WARNING | meta_client | Operation 'get_media_insights:17980298879439026' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:15,289 | ERROR | meta_client | Operation 'get_media_insights:17980298879439026' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:15,289 | ERROR | sync_service | Failed to sync insights for post 17980298879439026: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:15,289 | INFO | sync_service | Post saved: 18089855887321402
+2026-05-23 13:18:15,289 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-05-23 13:18:15,855 | WARNING | meta_client | Operation 'get_media_insights:18089855887321402' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:17,537 | WARNING | meta_client | Operation 'get_media_insights:18089855887321402' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:20,174 | ERROR | meta_client | Operation 'get_media_insights:18089855887321402' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:20,174 | ERROR | sync_service | Failed to sync insights for post 18089855887321402: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:20,174 | INFO | sync_service | Post saved: 17952055330919778
+2026-05-23 13:18:20,174 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-05-23 13:18:20,831 | WARNING | meta_client | Operation 'get_media_insights:17952055330919778' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:22,439 | WARNING | meta_client | Operation 'get_media_insights:17952055330919778' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:25,092 | ERROR | meta_client | Operation 'get_media_insights:17952055330919778' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:25,093 | ERROR | sync_service | Failed to sync insights for post 17952055330919778: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:25,094 | INFO | sync_service | Post saved: 17934954896160706
+2026-05-23 13:18:25,094 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-05-23 13:18:26,527 | WARNING | meta_client | Operation 'get_media_insights:17934954896160706' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:28,180 | WARNING | meta_client | Operation 'get_media_insights:17934954896160706' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:30,817 | ERROR | meta_client | Operation 'get_media_insights:17934954896160706' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:30,817 | ERROR | sync_service | Failed to sync insights for post 17934954896160706: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:30,818 | INFO | sync_service | Post saved: 17875588466701753
+2026-05-23 13:18:30,818 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-05-23 13:18:31,458 | WARNING | meta_client | Operation 'get_media_insights:17875588466701753' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:33,118 | WARNING | meta_client | Operation 'get_media_insights:17875588466701753' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:35,848 | ERROR | meta_client | Operation 'get_media_insights:17875588466701753' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:35,849 | ERROR | sync_service | Failed to sync insights for post 17875588466701753: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:35,849 | INFO | sync_service | Post saved: 18002804026445081
+2026-05-23 13:18:35,850 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-05-23 13:18:36,419 | WARNING | meta_client | Operation 'get_media_insights:18002804026445081' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:38,048 | WARNING | meta_client | Operation 'get_media_insights:18002804026445081' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:40,672 | ERROR | meta_client | Operation 'get_media_insights:18002804026445081' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:40,672 | ERROR | sync_service | Failed to sync insights for post 18002804026445081: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 13:18:40,673 | INFO | sync_service | Post saved: 17938966907132068
+2026-05-23 13:18:40,673 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-05-23 13:18:41,305 | WARNING | meta_client | Operation 'get_media_insights:17938966907132068' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17938966907132068/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRvkQjuTtRNpks0jcXG4WZBabdoqA4MyZAYeFGJTp3BsqiTWGpFyxPk13tYiL3y81emCJ2dDYQzBLvi2ucWIFGhVd9ZCVqUZCw64mhBmu8NX37sZAYb8CmphHyp5wBbVWNT1IAxJDI7inSEcmLIbQAxkW1U8WK4WYyheun6XCZA3BMHxVJ23LYJdTbzVzOamlTjV90rB0mdtZB2HDMZAW8VwMdGZCkSIPhgujrKP1cQU9EFFDhxqIEi1jxvY4F7oxzYS3EzogQ0kizVOG9
+2026-05-23 14:12:53,842 | INFO | sync_service | Fetching account profile...
+2026-05-23 14:12:54,997 | INFO | sync_service | Fetching recent media...
+2026-05-23 14:12:56,489 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-05-23 14:12:56,500 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-05-23 14:12:56,501 | INFO | sync_service | Post saved: 18171459604377771
+2026-05-23 14:12:56,501 | INFO | sync_service | Fetching insights for post: 18171459604377771
+2026-05-23 14:12:57,259 | WARNING | meta_client | Operation 'get_media_insights:18171459604377771' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:12:59,092 | WARNING | meta_client | Operation 'get_media_insights:18171459604377771' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:02,266 | ERROR | meta_client | Operation 'get_media_insights:18171459604377771' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:02,266 | ERROR | sync_service | Failed to sync insights for post 18171459604377771: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18171459604377771/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:02,267 | INFO | sync_service | Post saved: 17861066040071611
+2026-05-23 14:13:02,267 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-05-23 14:13:03,081 | WARNING | meta_client | Operation 'get_media_insights:17861066040071611' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:05,746 | WARNING | meta_client | Operation 'get_media_insights:17861066040071611' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:09,327 | ERROR | meta_client | Operation 'get_media_insights:17861066040071611' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:09,328 | ERROR | sync_service | Failed to sync insights for post 17861066040071611: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17861066040071611/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:09,328 | INFO | sync_service | Post saved: 17980298879439026
+2026-05-23 14:13:09,329 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-05-23 14:13:10,246 | WARNING | meta_client | Operation 'get_media_insights:17980298879439026' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:11,989 | WARNING | meta_client | Operation 'get_media_insights:17980298879439026' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:14,851 | ERROR | meta_client | Operation 'get_media_insights:17980298879439026' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:14,851 | ERROR | sync_service | Failed to sync insights for post 17980298879439026: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17980298879439026/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:14,852 | INFO | sync_service | Post saved: 18089855887321402
+2026-05-23 14:13:14,853 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-05-23 14:13:15,574 | WARNING | meta_client | Operation 'get_media_insights:18089855887321402' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:17,307 | WARNING | meta_client | Operation 'get_media_insights:18089855887321402' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:20,480 | ERROR | meta_client | Operation 'get_media_insights:18089855887321402' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:20,481 | ERROR | sync_service | Failed to sync insights for post 18089855887321402: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18089855887321402/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:20,482 | INFO | sync_service | Post saved: 17952055330919778
+2026-05-23 14:13:20,483 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-05-23 14:13:21,296 | WARNING | meta_client | Operation 'get_media_insights:17952055330919778' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:23,448 | WARNING | meta_client | Operation 'get_media_insights:17952055330919778' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:26,312 | ERROR | meta_client | Operation 'get_media_insights:17952055330919778' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:26,313 | ERROR | sync_service | Failed to sync insights for post 17952055330919778: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17952055330919778/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:26,314 | INFO | sync_service | Post saved: 17934954896160706
+2026-05-23 14:13:26,314 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-05-23 14:13:27,027 | WARNING | meta_client | Operation 'get_media_insights:17934954896160706' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:28,872 | WARNING | meta_client | Operation 'get_media_insights:17934954896160706' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:32,544 | ERROR | meta_client | Operation 'get_media_insights:17934954896160706' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:32,545 | ERROR | sync_service | Failed to sync insights for post 17934954896160706: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17934954896160706/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:32,545 | INFO | sync_service | Post saved: 17875588466701753
+2026-05-23 14:13:32,546 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-05-23 14:13:33,371 | WARNING | meta_client | Operation 'get_media_insights:17875588466701753' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:35,214 | WARNING | meta_client | Operation 'get_media_insights:17875588466701753' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:38,163 | ERROR | meta_client | Operation 'get_media_insights:17875588466701753' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:38,163 | ERROR | sync_service | Failed to sync insights for post 17875588466701753: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17875588466701753/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:38,164 | INFO | sync_service | Post saved: 18002804026445081
+2026-05-23 14:13:38,165 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-05-23 14:13:38,999 | WARNING | meta_client | Operation 'get_media_insights:18002804026445081' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:40,946 | WARNING | meta_client | Operation 'get_media_insights:18002804026445081' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:44,741 | ERROR | meta_client | Operation 'get_media_insights:18002804026445081' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:44,742 | ERROR | sync_service | Failed to sync insights for post 18002804026445081: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18002804026445081/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:44,742 | INFO | sync_service | Post saved: 17938966907132068
+2026-05-23 14:13:44,743 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-05-23 14:13:46,001 | WARNING | meta_client | Operation 'get_media_insights:17938966907132068' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17938966907132068/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:47,921 | WARNING | meta_client | Operation 'get_media_insights:17938966907132068' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17938966907132068/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:50,883 | ERROR | meta_client | Operation 'get_media_insights:17938966907132068' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17938966907132068/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:50,883 | ERROR | sync_service | Failed to sync insights for post 17938966907132068: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17938966907132068/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:50,884 | INFO | sync_service | Post saved: 18041639662331282
+2026-05-23 14:13:50,884 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-05-23 14:13:51,744 | WARNING | meta_client | Operation 'get_media_insights:18041639662331282' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18041639662331282/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:53,738 | WARNING | meta_client | Operation 'get_media_insights:18041639662331282' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18041639662331282/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:56,601 | ERROR | meta_client | Operation 'get_media_insights:18041639662331282' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18041639662331282/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:56,603 | ERROR | sync_service | Failed to sync insights for post 18041639662331282: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18041639662331282/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:56,603 | INFO | sync_service | Post saved: 18039320107337219
+2026-05-23 14:13:56,604 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-05-23 14:13:57,522 | WARNING | meta_client | Operation 'get_media_insights:18039320107337219' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18039320107337219/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:13:59,471 | WARNING | meta_client | Operation 'get_media_insights:18039320107337219' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18039320107337219/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:03,095 | ERROR | meta_client | Operation 'get_media_insights:18039320107337219' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18039320107337219/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:03,096 | ERROR | sync_service | Failed to sync insights for post 18039320107337219: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18039320107337219/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:03,096 | INFO | sync_service | Post saved: 18000092275392781
+2026-05-23 14:14:03,097 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-05-23 14:14:04,453 | WARNING | meta_client | Operation 'get_media_insights:18000092275392781' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18000092275392781/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:06,343 | WARNING | meta_client | Operation 'get_media_insights:18000092275392781' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18000092275392781/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:09,316 | ERROR | meta_client | Operation 'get_media_insights:18000092275392781' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18000092275392781/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:09,317 | ERROR | sync_service | Failed to sync insights for post 18000092275392781: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18000092275392781/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:09,318 | INFO | sync_service | Post saved: 17991685570458199
+2026-05-23 14:14:09,318 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-05-23 14:14:10,150 | WARNING | meta_client | Operation 'get_media_insights:17991685570458199' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17991685570458199/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:12,027 | WARNING | meta_client | Operation 'get_media_insights:17991685570458199' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17991685570458199/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:19,206 | ERROR | meta_client | Operation 'get_media_insights:17991685570458199' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17991685570458199/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:19,208 | ERROR | sync_service | Failed to sync insights for post 17991685570458199: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17991685570458199/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:19,209 | INFO | sync_service | Post saved: 17869210028581339
+2026-05-23 14:14:19,209 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-05-23 14:14:20,160 | WARNING | meta_client | Operation 'get_media_insights:17869210028581339' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17869210028581339/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:22,072 | WARNING | meta_client | Operation 'get_media_insights:17869210028581339' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17869210028581339/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:24,950 | ERROR | meta_client | Operation 'get_media_insights:17869210028581339' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17869210028581339/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:24,951 | ERROR | sync_service | Failed to sync insights for post 17869210028581339: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17869210028581339/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:24,952 | INFO | sync_service | Post saved: 18196052563098167
+2026-05-23 14:14:24,952 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-05-23 14:14:25,879 | WARNING | meta_client | Operation 'get_media_insights:18196052563098167' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18196052563098167/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:28,064 | WARNING | meta_client | Operation 'get_media_insights:18196052563098167' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18196052563098167/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:31,087 | ERROR | meta_client | Operation 'get_media_insights:18196052563098167' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18196052563098167/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:31,089 | ERROR | sync_service | Failed to sync insights for post 18196052563098167: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18196052563098167/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:31,089 | INFO | sync_service | Post saved: 18237570082017449
+2026-05-23 14:14:31,089 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-05-23 14:14:32,005 | WARNING | meta_client | Operation 'get_media_insights:18237570082017449' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18237570082017449/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:33,873 | WARNING | meta_client | Operation 'get_media_insights:18237570082017449' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18237570082017449/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:36,773 | ERROR | meta_client | Operation 'get_media_insights:18237570082017449' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18237570082017449/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:36,774 | ERROR | sync_service | Failed to sync insights for post 18237570082017449: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18237570082017449/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:36,774 | INFO | sync_service | Post saved: 17979984439370368
+2026-05-23 14:14:36,776 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-05-23 14:14:37,750 | WARNING | meta_client | Operation 'get_media_insights:17979984439370368' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17979984439370368/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:39,683 | WARNING | meta_client | Operation 'get_media_insights:17979984439370368' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17979984439370368/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:42,777 | ERROR | meta_client | Operation 'get_media_insights:17979984439370368' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17979984439370368/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:42,778 | ERROR | sync_service | Failed to sync insights for post 17979984439370368: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17979984439370368/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:42,778 | INFO | sync_service | Post saved: 17886069884248214
+2026-05-23 14:14:42,779 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-05-23 14:14:43,554 | WARNING | meta_client | Operation 'get_media_insights:17886069884248214' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17886069884248214/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:45,378 | WARNING | meta_client | Operation 'get_media_insights:17886069884248214' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17886069884248214/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:49,389 | ERROR | meta_client | Operation 'get_media_insights:17886069884248214' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17886069884248214/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:49,390 | ERROR | sync_service | Failed to sync insights for post 17886069884248214: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17886069884248214/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:49,390 | INFO | sync_service | Post saved: 17873869571478679
+2026-05-23 14:14:49,391 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-05-23 14:14:50,394 | WARNING | meta_client | Operation 'get_media_insights:17873869571478679' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17873869571478679/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:50,816 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:14:50,828 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:14:52,996 | WARNING | meta_client | Operation 'get_media_insights:17873869571478679' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17873869571478679/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:55,776 | ERROR | meta_client | Operation 'get_media_insights:17873869571478679' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17873869571478679/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:55,777 | ERROR | sync_service | Failed to sync insights for post 17873869571478679: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17873869571478679/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:55,778 | INFO | sync_service | Post saved: 18114497440174052
+2026-05-23 14:14:55,779 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-05-23 14:14:56,515 | WARNING | meta_client | Operation 'get_media_insights:18114497440174052' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18114497440174052/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:14:58,224 | WARNING | meta_client | Operation 'get_media_insights:18114497440174052' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18114497440174052/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:15:01,076 | ERROR | meta_client | Operation 'get_media_insights:18114497440174052' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18114497440174052/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:15:01,077 | ERROR | sync_service | Failed to sync insights for post 18114497440174052: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/18114497440174052/insights?metric=likes%2Ccomments%2Cshares%2Csaved%2Creach%2Cimpressions&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-23 14:15:01,093 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=20, insights_synced=0
+2026-05-23 14:15:03,831 | INFO | sync_service | Fetching account profile...
+2026-05-23 14:15:03,831 | INFO | sync_service | Fetching recent media...
+2026-05-23 14:15:03,831 | INFO | sync_service | Retrieved 2 posts for account demo_business
+2026-05-23 14:15:03,833 | INFO | sync_service | Account saved: demo_business (id=mock_account_001)
+2026-05-23 14:15:03,833 | INFO | sync_service | Post saved: mock_post_001
+2026-05-23 14:15:03,833 | INFO | sync_service | Fetching insights for post: mock_post_001
+2026-05-23 14:15:03,834 | INFO | sync_service | Insights saved for post: mock_post_001
+2026-05-23 14:15:03,834 | INFO | sync_service | Post saved: mock_post_002
+2026-05-23 14:15:03,834 | INFO | sync_service | Fetching insights for post: mock_post_002
+2026-05-23 14:15:03,834 | INFO | sync_service | Insights saved for post: mock_post_002
+2026-05-23 14:15:03,837 | INFO | sync_service | Sync completed: account=demo_business, posts_synced=2, insights_synced=2
+2026-05-23 14:15:03,846 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:15:03,856 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:15:45,199 | INFO | sync_service | Fetching account profile...
+2026-05-23 14:15:45,995 | INFO | sync_service | Fetching recent media...
+2026-05-23 14:15:47,018 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-05-23 14:15:47,020 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-05-23 14:15:47,020 | INFO | sync_service | Post saved: 18171459604377771
+2026-05-23 14:15:47,021 | INFO | sync_service | Fetching insights for post: 18171459604377771
+2026-05-23 14:15:49,259 | WARNING | meta_client | Media fields request returned 400 for 18171459604377771; using zero insights.
+2026-05-23 14:15:49,262 | INFO | sync_service | Insights saved for post: 18171459604377771
+2026-05-23 14:15:49,263 | INFO | sync_service | Post saved: 17861066040071611
+2026-05-23 14:15:49,263 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-05-23 14:15:50,177 | WARNING | meta_client | Media fields request returned 400 for 17861066040071611; using zero insights.
+2026-05-23 14:15:50,179 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-05-23 14:15:50,180 | INFO | sync_service | Post saved: 17980298879439026
+2026-05-23 14:15:50,180 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-05-23 14:15:51,316 | WARNING | meta_client | Media fields request returned 400 for 17980298879439026; using zero insights.
+2026-05-23 14:15:51,319 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-05-23 14:15:51,320 | INFO | sync_service | Post saved: 18089855887321402
+2026-05-23 14:15:51,320 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-05-23 14:15:52,237 | WARNING | meta_client | Media fields request returned 400 for 18089855887321402; using zero insights.
+2026-05-23 14:15:52,240 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-05-23 14:15:52,241 | INFO | sync_service | Post saved: 17952055330919778
+2026-05-23 14:15:52,241 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-05-23 14:15:53,222 | WARNING | meta_client | Media fields request returned 400 for 17952055330919778; using zero insights.
+2026-05-23 14:15:53,225 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-05-23 14:15:53,226 | INFO | sync_service | Post saved: 17934954896160706
+2026-05-23 14:15:53,226 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-05-23 14:15:53,999 | WARNING | meta_client | Media fields request returned 400 for 17934954896160706; using zero insights.
+2026-05-23 14:15:54,002 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-05-23 14:15:54,003 | INFO | sync_service | Post saved: 17875588466701753
+2026-05-23 14:15:54,003 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-05-23 14:15:55,510 | WARNING | meta_client | Media fields request returned 400 for 17875588466701753; using zero insights.
+2026-05-23 14:15:55,512 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-05-23 14:15:55,512 | INFO | sync_service | Post saved: 18002804026445081
+2026-05-23 14:15:55,512 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-05-23 14:15:56,227 | WARNING | meta_client | Media fields request returned 400 for 18002804026445081; using zero insights.
+2026-05-23 14:15:56,231 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-05-23 14:15:56,232 | INFO | sync_service | Post saved: 17938966907132068
+2026-05-23 14:15:56,233 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-05-23 14:15:57,205 | WARNING | meta_client | Media fields request returned 400 for 17938966907132068; using zero insights.
+2026-05-23 14:15:57,206 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-05-23 14:15:57,207 | INFO | sync_service | Post saved: 18041639662331282
+2026-05-23 14:15:57,207 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-05-23 14:15:58,379 | WARNING | meta_client | Media fields request returned 400 for 18041639662331282; using zero insights.
+2026-05-23 14:15:58,382 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-05-23 14:15:58,382 | INFO | sync_service | Post saved: 18039320107337219
+2026-05-23 14:15:58,383 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-05-23 14:15:59,195 | WARNING | meta_client | Media fields request returned 400 for 18039320107337219; using zero insights.
+2026-05-23 14:15:59,199 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-05-23 14:15:59,199 | INFO | sync_service | Post saved: 18000092275392781
+2026-05-23 14:15:59,200 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-05-23 14:16:00,009 | WARNING | meta_client | Media fields request returned 400 for 18000092275392781; using zero insights.
+2026-05-23 14:16:00,013 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-05-23 14:16:00,014 | INFO | sync_service | Post saved: 17991685570458199
+2026-05-23 14:16:00,015 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-05-23 14:16:00,838 | WARNING | meta_client | Media fields request returned 400 for 17991685570458199; using zero insights.
+2026-05-23 14:16:00,841 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-05-23 14:16:00,842 | INFO | sync_service | Post saved: 17869210028581339
+2026-05-23 14:16:00,842 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-05-23 14:16:01,858 | WARNING | meta_client | Media fields request returned 400 for 17869210028581339; using zero insights.
+2026-05-23 14:16:01,863 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-05-23 14:16:01,863 | INFO | sync_service | Post saved: 18196052563098167
+2026-05-23 14:16:01,864 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-05-23 14:16:02,663 | WARNING | meta_client | Media fields request returned 400 for 18196052563098167; using zero insights.
+2026-05-23 14:16:02,666 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-05-23 14:16:02,667 | INFO | sync_service | Post saved: 18237570082017449
+2026-05-23 14:16:02,667 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-05-23 14:16:03,457 | WARNING | meta_client | Media fields request returned 400 for 18237570082017449; using zero insights.
+2026-05-23 14:16:03,460 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-05-23 14:16:03,461 | INFO | sync_service | Post saved: 17979984439370368
+2026-05-23 14:16:03,461 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-05-23 14:16:05,847 | WARNING | meta_client | Media fields request returned 400 for 17979984439370368; using zero insights.
+2026-05-23 14:16:05,850 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-05-23 14:16:05,851 | INFO | sync_service | Post saved: 17886069884248214
+2026-05-23 14:16:05,852 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-05-23 14:16:06,648 | WARNING | meta_client | Media fields request returned 400 for 17886069884248214; using zero insights.
+2026-05-23 14:16:06,652 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-05-23 14:16:06,653 | INFO | sync_service | Post saved: 17873869571478679
+2026-05-23 14:16:06,653 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-05-23 14:16:07,627 | WARNING | meta_client | Media fields request returned 400 for 17873869571478679; using zero insights.
+2026-05-23 14:16:07,629 | INFO | sync_service | Insights saved for post: 17873869571478679
+2026-05-23 14:16:07,630 | INFO | sync_service | Post saved: 18114497440174052
+2026-05-23 14:16:07,631 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-05-23 14:16:09,839 | WARNING | meta_client | Media fields request returned 400 for 18114497440174052; using zero insights.
+2026-05-23 14:16:09,841 | INFO | sync_service | Insights saved for post: 18114497440174052
+2026-05-23 14:16:09,844 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=20, insights_synced=20
+2026-05-23 14:18:05,134 | INFO | sync_service | Fetching account profile...
+2026-05-23 14:18:06,092 | INFO | sync_service | Fetching recent media...
+2026-05-23 14:18:07,161 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-05-23 14:18:07,170 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-05-23 14:18:07,171 | INFO | sync_service | Post saved: 18171459604377771
+2026-05-23 14:18:07,171 | INFO | sync_service | Fetching insights for post: 18171459604377771
+2026-05-23 14:18:07,924 | INFO | sync_service | Insights saved for post: 18171459604377771
+2026-05-23 14:18:07,924 | INFO | sync_service | Post saved: 17861066040071611
+2026-05-23 14:18:07,924 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-05-23 14:18:08,809 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-05-23 14:18:08,809 | INFO | sync_service | Post saved: 17980298879439026
+2026-05-23 14:18:08,809 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-05-23 14:18:09,592 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-05-23 14:18:09,592 | INFO | sync_service | Post saved: 18089855887321402
+2026-05-23 14:18:09,592 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-05-23 14:18:10,332 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-05-23 14:18:10,333 | INFO | sync_service | Post saved: 17952055330919778
+2026-05-23 14:18:10,333 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-05-23 14:18:11,075 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-05-23 14:18:11,076 | INFO | sync_service | Post saved: 17934954896160706
+2026-05-23 14:18:11,076 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-05-23 14:18:12,769 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-05-23 14:18:12,769 | INFO | sync_service | Post saved: 17875588466701753
+2026-05-23 14:18:12,769 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-05-23 14:18:13,610 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-05-23 14:18:13,610 | INFO | sync_service | Post saved: 18002804026445081
+2026-05-23 14:18:13,610 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-05-23 14:18:14,443 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-05-23 14:18:14,443 | INFO | sync_service | Post saved: 17938966907132068
+2026-05-23 14:18:14,443 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-05-23 14:18:15,243 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-05-23 14:18:15,243 | INFO | sync_service | Post saved: 18041639662331282
+2026-05-23 14:18:15,244 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-05-23 14:18:15,992 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-05-23 14:18:16,000 | INFO | sync_service | Post saved: 18039320107337219
+2026-05-23 14:18:16,000 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-05-23 14:18:16,846 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-05-23 14:18:16,846 | INFO | sync_service | Post saved: 18000092275392781
+2026-05-23 14:18:16,846 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-05-23 14:18:17,624 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-05-23 14:18:17,624 | INFO | sync_service | Post saved: 17991685570458199
+2026-05-23 14:18:17,625 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-05-23 14:18:18,413 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-05-23 14:18:18,414 | INFO | sync_service | Post saved: 17869210028581339
+2026-05-23 14:18:18,414 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-05-23 14:18:19,242 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-05-23 14:18:19,243 | INFO | sync_service | Post saved: 18196052563098167
+2026-05-23 14:18:19,243 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-05-23 14:18:20,265 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-05-23 14:18:20,265 | INFO | sync_service | Post saved: 18237570082017449
+2026-05-23 14:18:20,266 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-05-23 14:18:21,193 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-05-23 14:18:21,193 | INFO | sync_service | Post saved: 17979984439370368
+2026-05-23 14:18:21,194 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-05-23 14:18:22,360 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-05-23 14:18:22,360 | INFO | sync_service | Post saved: 17886069884248214
+2026-05-23 14:18:22,360 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-05-23 14:18:23,234 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-05-23 14:18:23,235 | INFO | sync_service | Post saved: 17873869571478679
+2026-05-23 14:18:23,235 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-05-23 14:18:24,305 | INFO | sync_service | Insights saved for post: 17873869571478679
+2026-05-23 14:18:24,305 | INFO | sync_service | Post saved: 18114497440174052
+2026-05-23 14:18:24,306 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-05-23 14:18:25,093 | INFO | sync_service | Insights saved for post: 18114497440174052
+2026-05-23 14:18:25,109 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=20, insights_synced=20
+2026-05-23 14:18:34,348 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:18:34,359 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:26:22,190 | INFO | metrics | engagement_rate(18171459604377771) = 1.5%
+2026-05-23 14:26:22,194 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:26:22,199 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-23 14:26:22,202 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:26:22,206 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:26:22,209 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:26:34,100 | INFO | metrics | engagement_rate(18171459604377771) = 1.5%
+2026-05-23 14:26:34,103 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:26:34,107 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-23 14:26:34,111 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:26:34,114 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:26:34,116 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:26:34,120 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:26:34,131 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:28:31,362 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:28:31,363 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-23 14:28:31,364 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:28:31,366 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:28:31,368 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:28:31,369 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-23 14:28:37,923 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:28:37,924 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-23 14:28:37,925 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:28:37,926 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:28:37,927 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:28:37,928 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-23 14:28:37,953 | INFO | metrics | engagement_rate(18171459604377771) = 1.5%
+2026-05-23 14:28:37,955 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:28:37,958 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-23 14:28:37,961 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:28:37,965 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:28:37,967 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:28:37,969 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:28:37,980 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:32:11,158 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:32:11,159 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-23 14:32:11,160 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:32:11,161 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:32:11,162 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:32:11,162 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-23 14:32:11,176 | INFO | metrics | engagement_rate(18171459604377771) = 1.5%
+2026-05-23 14:32:11,178 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:32:11,180 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-23 14:32:11,182 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:32:11,184 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:32:11,187 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:32:11,194 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-23 14:32:11,195 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-23 14:32:11,196 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-23 14:32:11,197 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-23 14:32:11,198 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-23 14:32:11,198 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-23 14:32:11,198 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-23T14:32:11
+2026-05-23 14:32:11,199 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 930 characters
+2026-05-23 14:32:11,202 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-23 14:32:11,212 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-25 12:45:52,994 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 12:45:52,996 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 12:45:52,998 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 12:45:53,002 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 12:45:53,005 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 12:45:53,005 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 12:45:53,006 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T12:45:53
+2026-05-25 12:45:53,006 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 930 characters
+2026-05-25 12:45:53,006 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 12:46:52,146 | INFO | strategy_generator | Strategy generated for @dentalb_ku (5062 characters)
+2026-05-25 12:47:28,278 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 12:47:28,280 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 12:47:28,281 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 12:47:28,282 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 12:47:28,283 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 12:47:28,284 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 12:47:28,284 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T12:47:28
+2026-05-25 12:47:28,284 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 930 characters
+2026-05-25 12:47:28,284 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 12:48:44,654 | INFO | strategy_generator | Strategy generated for @dentalb_ku (6859 characters)
+2026-05-25 12:49:04,510 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-25 12:49:04,522 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-25 12:52:24,775 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 12:52:24,776 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 12:52:24,777 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 12:52:24,779 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 12:52:24,780 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 12:52:24,781 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 12:52:24,781 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T12:52:24
+2026-05-25 12:52:24,782 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 930 characters
+2026-05-25 12:52:24,782 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 12:53:23,291 | INFO | strategy_generator | Strategy generated for @dentalb_ku (4917 characters)
+2026-05-25 12:53:42,068 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 12:53:42,070 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 12:53:42,072 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 12:53:42,074 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 12:53:42,076 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 12:53:42,076 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 12:53:42,078 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T12:53:42
+2026-05-25 12:53:42,078 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 930 characters
+2026-05-25 12:53:42,079 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 12:55:00,425 | INFO | strategy_generator | Strategy generated for @dentalb_ku (6409 characters)
+2026-05-25 13:02:32,632 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:02:32,634 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:02:32,635 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:02:32,636 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:02:32,637 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:02:32,637 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:02:32,638 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:02:32
+2026-05-25 13:02:32,640 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:02:32,738 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:02:32,739 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:02:32,741 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:02:32,743 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:02:32,744 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:02:32,745 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:02:43,509 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:02:43,510 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:02:43,510 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:02:43,511 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:02:43,512 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:02:43,512 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:02:43,514 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:02:43
+2026-05-25 13:02:43,516 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:02:58,905 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:02:58,907 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:02:58,908 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:02:58,909 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:02:58,910 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:02:58,910 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:02:58,912 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:02:58
+2026-05-25 13:02:58,912 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:02:58,912 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:03:48,108 | INFO | strategy_generator | Strategy generated for @dentalb_ku (4142 characters)
+2026-05-25 13:08:57,058 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:08:57,061 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:08:57,063 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:08:57,065 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:08:57,068 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:08:57,068 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:08:57,070 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:08:57
+2026-05-25 13:08:57,805 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:11:46,838 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:11:46,839 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:11:46,841 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:11:46,843 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:11:46,846 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:11:46,847 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:11:46,850 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:11:46
+2026-05-25 13:11:46,885 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:19:07,721 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:19:07,724 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:19:07,727 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:19:07,731 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:19:07,735 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:19:07,736 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:19:07,738 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:19:07
+2026-05-25 13:19:07,930 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:22:16,385 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:22:16,387 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:22:16,390 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:22:16,392 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:22:16,395 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:22:16,395 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:22:16,398 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:22:16
+2026-05-25 13:22:16,423 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:22:16,426 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:22:16,431 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:22:16,433 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:22:17,779 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:22:17,782 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:22:17,785 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:22:17,788 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:22:33,379 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:22:33,382 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:22:33,383 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:22:33,386 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:22:33,390 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:22:33,390 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:22:33,393 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:22:33
+2026-05-25 13:22:33,393 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:22:33,394 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:22:36,869 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:22:36,871 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:22:36,874 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:22:36,878 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:22:40,673 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:22:40,675 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:22:40,677 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:22:40,678 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:22:58,046 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:22:59,468 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:23:21,487 | INFO | strategy_generator | Strategy generated for @dentalb_ku (4165 characters)
+2026-05-25 13:23:29,155 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:23:29,159 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:23:29,162 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:23:29,166 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:23:29,169 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:23:29,170 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:23:29,172 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:23:29
+2026-05-25 13:23:32,299 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:23:32,302 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:23:32,304 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:23:32,308 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:23:32,311 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:23:32,312 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:23:32,315 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:23:32
+2026-05-25 13:23:32,316 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:23:32,316 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:24:17,796 | INFO | strategy_generator | Strategy generated for @dentalb_ku (4192 characters)
+2026-05-25 13:27:02,289 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:27:02,291 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:27:02,293 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:27:02,294 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:27:02,295 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:27:02,295 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:27:02,296 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:27:02
+2026-05-25 13:27:02,349 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:27:07,635 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:27:07,636 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:27:07,637 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:27:07,638 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:27:07,639 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:27:07,639 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:27:07,639 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:27:07
+2026-05-25 13:27:07,640 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:27:07,640 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:27:52,198 | INFO | strategy_generator | Strategy generated for @dentalb_ku (4107 characters)
+2026-05-25 13:33:53,875 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:33:53,876 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:33:53,877 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:33:53,879 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:33:53,881 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:33:53,881 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:33:53,882 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:33:53
+2026-05-25 13:33:53,929 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:34:06,168 | INFO | sync_service | Fetching account profile...
+2026-05-25 13:34:06,771 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17841409576371357?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-25 13:34:08,361 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17841409576371357?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-25 13:34:10,893 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17841409576371357?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-25 13:34:10,938 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:34:26,192 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:34:26,193 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:34:26,194 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:34:26,195 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:34:26,196 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:34:26,197 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:34:26,197 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:34:26
+2026-05-25 13:34:26,198 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3865 characters
+2026-05-25 13:34:26,199 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:35:18,622 | INFO | strategy_generator | Strategy generated for @dentalb_ku (4560 characters)
+2026-05-25 13:37:26,966 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:37:26,967 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:37:26,968 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:37:26,969 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:37:26,970 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:37:26,971 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:37:26,972 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:37:26
+2026-05-25 13:37:27,022 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:37:28,336 | INFO | sync_service | Fetching account profile...
+2026-05-25 13:37:28,876 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17841409576371357?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-25 13:37:30,445 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17841409576371357?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-25 13:37:33,003 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: 400 Client Error: Bad Request for url: https://graph.facebook.com/v18.0/17841409576371357?fields=username%2Cfollowers_count%2Cmedia_count%2Cbiography&access_token=EAAQ6YYriC44BRknYPmqWAO02NFJpLv3CNQfMmzVIN2iAIa7QlYQSHQHr2TmQMYNemtBcP9pzhZB4vqiw9euH0JKAPKLpLNgzX4O1tzYCjHsZAmW3zQZBYstIRnzx7ykAJDsYv1HDtxLEEt0IbCV6ffqDbotXO9IJZBSWq6iJ0ZCVt1EgyJgg3EfXmlvi62immTUfwHagkbPnbC9cVyTBWgz5sfmfAheQ2u3SjxZA4fxAR1BaLkjh7WZBcDD1WPZClbhkGMKnmp6JSZCVZA1RGI4J74Oarm
+2026-05-25 13:37:33,048 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:39:52,240 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:39:52,241 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:39:52,243 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:39:52,245 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:39:52,247 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:39:52,247 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:39:52,249 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:39:52
+2026-05-25 13:39:52,359 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:39:55,439 | INFO | sync_service | Fetching account profile...
+2026-05-25 13:39:56,010 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-25 13:39:56,552 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: Session has expired on Saturday, 23-May-26 07:00:00 PDT. The current time is Monday, 25-May-26 04:39:56 PDT.
+2026-05-25 13:39:58,078 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-25 13:39:58,612 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: Session has expired on Saturday, 23-May-26 07:00:00 PDT. The current time is Monday, 25-May-26 04:39:58 PDT.
+2026-05-25 13:40:01,280 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-25 13:40:01,799 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: Session has expired on Saturday, 23-May-26 07:00:00 PDT. The current time is Monday, 25-May-26 04:40:01 PDT.
+2026-05-25 13:40:01,845 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:44:30,550 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:44:30,551 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:44:30,551 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:44:30,552 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:44:30,553 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:44:30,553 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:44:30,553 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:44:30
+2026-05-25 13:44:30,584 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:44:32,145 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:44:33,422 | INFO | sync_service | Fetching account profile...
+2026-05-25 13:44:34,030 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-25 13:44:34,536 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: Session has expired on Saturday, 23-May-26 07:00:00 PDT. The current time is Monday, 25-May-26 04:44:34 PDT.
+2026-05-25 13:44:36,173 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-25 13:44:36,634 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: Session has expired on Saturday, 23-May-26 07:00:00 PDT. The current time is Monday, 25-May-26 04:44:36 PDT.
+2026-05-25 13:44:39,122 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-25 13:44:39,582 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: Session has expired on Saturday, 23-May-26 07:00:00 PDT. The current time is Monday, 25-May-26 04:44:39 PDT.
+2026-05-25 13:44:39,616 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:45:28,021 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:45:28,022 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:45:28,023 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:45:28,023 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:45:28,024 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:45:28,024 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:45:28,025 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:45:28
+2026-05-25 13:45:28,100 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:45:29,857 | INFO | sync_service | Fetching account profile...
+2026-05-25 13:45:30,902 | INFO | sync_service | Fetching recent media...
+2026-05-25 13:45:32,143 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-05-25 13:45:32,156 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-05-25 13:45:32,157 | INFO | sync_service | Post skipped (already exists): 18171459604377771
+2026-05-25 13:45:32,157 | INFO | sync_service | Fetching insights for post: 18171459604377771
+2026-05-25 13:45:32,865 | INFO | sync_service | Insights saved for post: 18171459604377771
+2026-05-25 13:45:32,865 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-05-25 13:45:32,865 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-05-25 13:45:33,543 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-05-25 13:45:33,543 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-05-25 13:45:33,544 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-05-25 13:45:34,234 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-05-25 13:45:34,235 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-05-25 13:45:34,235 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-05-25 13:45:34,851 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-05-25 13:45:34,851 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-05-25 13:45:34,851 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-05-25 13:45:35,458 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-05-25 13:45:35,458 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-05-25 13:45:35,459 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-05-25 13:45:36,666 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-05-25 13:45:36,666 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-05-25 13:45:36,667 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-05-25 13:45:37,306 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-05-25 13:45:37,307 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-05-25 13:45:37,307 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-05-25 13:45:37,978 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-05-25 13:45:37,978 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-05-25 13:45:37,978 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-05-25 13:45:38,641 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-05-25 13:45:38,642 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-05-25 13:45:38,642 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-05-25 13:45:39,375 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-05-25 13:45:39,375 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-05-25 13:45:39,375 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-05-25 13:45:40,132 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-05-25 13:45:40,132 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-05-25 13:45:40,133 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-05-25 13:45:40,736 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-05-25 13:45:40,736 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-05-25 13:45:40,737 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-05-25 13:45:41,325 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-05-25 13:45:41,326 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-05-25 13:45:41,326 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-05-25 13:45:41,958 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-05-25 13:45:41,958 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-05-25 13:45:41,958 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-05-25 13:45:42,564 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-05-25 13:45:42,564 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-05-25 13:45:42,564 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-05-25 13:45:43,214 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-05-25 13:45:43,214 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-05-25 13:45:43,214 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-05-25 13:45:43,861 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-05-25 13:45:43,862 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-05-25 13:45:43,862 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-05-25 13:45:45,205 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-05-25 13:45:45,205 | INFO | sync_service | Post skipped (already exists): 17873869571478679
+2026-05-25 13:45:45,205 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-05-25 13:45:45,861 | INFO | sync_service | Insights saved for post: 17873869571478679
+2026-05-25 13:45:45,861 | INFO | sync_service | Post skipped (already exists): 18114497440174052
+2026-05-25 13:45:45,862 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-05-25 13:45:46,523 | INFO | sync_service | Insights saved for post: 18114497440174052
+2026-05-25 13:45:46,538 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=0, insights_synced=20
+2026-05-25 13:45:46,610 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:45:46,612 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:45:46,614 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:45:46,616 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:45:46,620 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:45:46,621 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:45:46,622 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:45:46
+2026-05-25 13:45:46,657 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:48:42,047 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:48:42,048 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:48:42,049 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:48:42,050 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:48:42,051 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:48:42,051 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:48:42,051 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:48:42
+2026-05-25 13:48:42,059 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:48:42,060 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:48:42,061 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:48:42,062 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:48:43,696 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:48:43,697 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:48:43,698 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:48:43,698 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:48:47,249 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:48:47,250 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:48:47,251 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:48:47,252 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:48:47,253 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:48:47,253 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:48:47,254 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:48:47
+2026-05-25 13:48:47,254 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-25 13:48:47,254 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:49:12,582 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:49:23,597 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-25 13:49:25,492 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:49:25,492 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:49:25,493 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:49:25,494 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:49:34,130 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:49:34,131 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:49:34,132 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:49:34,133 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:49:37,357 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:49:37,358 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:49:37,358 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:49:37,359 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:49:37,360 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:49:37,360 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:49:37,361 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:49:37
+2026-05-25 13:49:37,361 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-25 13:49:37,361 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-25 13:50:24,034 | INFO | strategy_generator | Strategy generated for @dentalb_ku (8698 characters)
+2026-05-25 13:51:16,938 | INFO | strategy_generator | Strategy generated for @dentalb_ku (8621 characters)
+2026-05-25 13:51:17,005 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-25 13:51:17,005 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-25 13:51:17,006 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-25 13:51:17,007 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-25 13:51:17,007 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-25 13:51:17,009 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-25 13:51:17,009 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-25T13:51:17
+2026-05-31 21:18:28,743 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:18:28,744 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:18:28,746 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:18:28,750 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:18:28,751 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:18:28,751 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:18:28,754 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:18:28
+2026-05-31 21:18:29,470 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 21:19:11,577 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:19:11,579 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:19:11,581 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:19:11,583 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:19:29,301 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:19:29,303 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:19:29,304 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:19:29,308 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:19:29,310 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:19:29,311 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:19:29,311 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:19:29
+2026-05-31 21:19:29,328 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:19:29,331 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:19:29,333 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:19:29,336 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
