@@ -19,6 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.ai.strategy_generator import generate_strategy  # noqa: E402
+from app.ai.weekly_planner import coming_week_bounds, generate_weekly_plan  # noqa: E402
 from app.analytics.metrics import (  # noqa: E402
     avg_engagement_rate,
     best_posting_day,
@@ -48,7 +49,7 @@ BENCHMARK_ENGAGEMENT_LOW = 1.0
 BENCHMARK_ENGAGEMENT_HIGH = 3.0
 BENCHMARK_POSTS_PER_WEEK = 3.0
 
-PAGES = ("Overview", "Post Analysis", "AI Strategy")
+PAGES = ("Overview", "Post Analysis", "AI Strategy", "📅 Plani Javor")
 
 
 def _inject_styles() -> None:
@@ -678,6 +679,56 @@ def _page_ai_strategy(report: dict, username: str) -> None:
             st.success("Kopjuar!")
 
 
+def _page_weekly_plan(report: dict, username: str) -> None:
+    st.markdown('<p class="page-title">📅 Plani Javor</p>', unsafe_allow_html=True)
+    st.markdown(
+        f'<p class="page-subtitle">Plan konkret javor për @{username} — Dental-B</p>',
+        unsafe_allow_html=True,
+    )
+
+    week_start, week_end = coming_week_bounds()
+    st.markdown(
+        f"""
+        <div class="info-card">
+            <strong>Java në vijim</strong><br>
+            {week_start.strftime("%d %b %Y")} (E Hënë) &nbsp;→&nbsp;
+            {week_end.strftime("%d %b %Y")} (E Diel)
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    if not st.session_state.get("weekly_plan"):
+        if st.button("🗓️ Gjenero Planin e Javës", type="primary"):
+            try:
+                with st.spinner("Duke gjeneruar planin javor..."):
+                    result = generate_weekly_plan(ACCOUNT_ID)
+                st.session_state["weekly_plan"] = result["plan"]
+                st.session_state["weekly_plan_generated_at"] = result["generated_at"]
+                st.session_state["weekly_plan_week"] = (
+                    f"{result['week_start']} → {result['week_end']}"
+                )
+                st.rerun()
+            except Exception as exc:  # noqa: BLE001
+                st.error(f"Gjenerimi i planit dështoi: {exc}")
+    else:
+        generated_at = st.session_state.get("weekly_plan_generated_at", "")
+        week_label = st.session_state.get("weekly_plan_week", "")
+        st.caption(f"Gjeneruar: {generated_at} · Java: {week_label}")
+        st.markdown('<div class="strategy-box">', unsafe_allow_html=True)
+        st.markdown(st.session_state["weekly_plan"])
+        st.markdown("</div>", unsafe_allow_html=True)
+
+        col_a, col_b = st.columns(2)
+        with col_a:
+            if st.button("🗓️ Rigjenero Planin", use_container_width=True):
+                st.session_state.pop("weekly_plan", None)
+                st.rerun()
+        with col_b:
+            if st.button("📧 Dërgo me Email", use_container_width=True):
+                st.info("Dërgimi me email do të implementohet së shpejti.")
+
+
 def main() -> None:
     st.set_page_config(
         page_title="InstaSight Analytics",
@@ -709,6 +760,8 @@ def main() -> None:
         _page_post_analysis(report, username)
     elif page == "AI Strategy":
         _page_ai_strategy(report, username)
+    elif page == "📅 Plani Javor":
+        _page_weekly_plan(report, username)
 
 
 if __name__ == "__main__":

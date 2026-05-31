@@ -3,6 +3,7 @@ from typing import Any, Dict
 
 import anthropic
 
+from app.ai.benchmarks import BENCHMARK_CONTEXT
 from app.analytics.report_builder import build_prompt_context, build_report
 from app.config import load_settings
 from app.utils_logger import setup_logger
@@ -26,8 +27,8 @@ SYSTEM_PROMPT = (
     "- Content ideas proven to work for dental clinics\n"
     "- Growth tactics used by successful healthcare accounts\n\n"
     "Every recommendation must reference the real account data provided.\n"
-    "Never be generic. Be specific like a real consultant.\n"
-    "Respond in Albanian."
+    "Never be generic. Be specific like a real consultant.\n\n"
+    + BENCHMARK_CONTEXT
 )
 
 

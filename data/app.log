@@ -876,3 +876,168 @@
 2026-05-31 21:19:29,331 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
 2026-05-31 21:19:29,333 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
 2026-05-31 21:19:29,336 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:39:03,780 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:39:03,781 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:39:03,783 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:39:03,796 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:39:03,798 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:39:03,799 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:39:03,800 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:39:03
+2026-05-31 21:39:03,803 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:39:03,804 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:39:03,805 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:39:03,808 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:39:03,811 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:39:03,811 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:39:03,811 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 21:40:35,969 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:40:35,971 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:40:35,972 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:40:35,974 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:40:35,976 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:40:35,976 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:40:35,978 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:40:35
+2026-05-31 21:40:36,066 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 21:40:44,529 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:40:44,530 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:40:44,532 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:40:44,533 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:40:44,534 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:40:44,535 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:40:44,537 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:40:44
+2026-05-31 21:40:44,540 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:40:44,542 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:40:44,544 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:40:44,547 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:40:44,548 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:40:44,549 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:40:44,549 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 21:40:44,551 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 21:41:12,709 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:41:12,711 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:41:12,712 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:41:12,713 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:41:17,265 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:41:17,267 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:41:17,269 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:41:17,270 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:41:47,835 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:41:47,836 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:41:47,838 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:41:47,839 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:41:47,840 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:41:47,840 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:41:47,842 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:41:47
+2026-05-31 21:41:47,871 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:41:47,873 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:41:47,874 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:41:47,878 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:41:47,880 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:41:47,881 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:41:47,882 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:41:47
+2026-05-31 21:41:47,885 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:41:47,887 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:41:47,889 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:41:47,891 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:41:47,895 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:41:47,896 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:41:47,896 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 21:41:47,896 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 21:42:20,899 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (8793 characters)
+2026-05-31 21:43:29,272 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (9073 characters)
+2026-05-31 21:43:29,367 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:43:29,369 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:43:29,370 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:43:29,372 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:43:29,373 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:43:29,374 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:43:29,375 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:43:29
+2026-05-31 21:47:27,753 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:47:27,756 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:47:27,758 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:47:27,762 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:47:27,763 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:47:27,763 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:47:27,765 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:47:27
+2026-05-31 21:54:48,456 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:54:48,458 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:54:48,459 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:54:48,461 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:54:48,462 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:54:48,462 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:54:48,463 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:54:48
+2026-05-31 21:54:48,463 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 21:54:48,464 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-31 21:56:24,033 | INFO | strategy_generator | Strategy generated for @dentalb_ku (12289 characters)
+2026-05-31 21:57:48,411 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:57:48,413 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:57:48,415 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:57:48,418 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:57:48,421 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:57:48,422 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:57:48,423 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:57:48
+2026-05-31 21:57:48,536 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 21:58:31,581 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:58:31,583 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:58:31,584 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:58:31,586 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:58:31,589 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:58:31,589 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:58:31,591 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T21:58:31
+2026-05-31 21:58:31,592 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 21:58:31,594 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 21:58:31,595 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 21:58:31,597 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 21:58:31,599 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 21:58:31,599 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 21:58:31,600 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 21:58:31,600 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 22:00:05,463 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (11847 characters)
+2026-05-31 22:04:33,847 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:04:33,848 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:04:33,849 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:04:33,850 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:04:33,852 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:04:33,853 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:04:33,876 | INFO | metrics | engagement_rate(18171459604377771) = 1.5%
+2026-05-31 22:04:33,880 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:04:33,884 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 22:04:33,888 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:04:33,894 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:04:33,897 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:04:33,901 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:04:33,902 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:04:33,903 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:04:33,904 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:04:33,905 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:04:33,905 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:04:33,905 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:04:33
+2026-05-31 22:04:33,907 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 22:04:33,909 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-05-31 22:04:33,920 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-05-31 22:04:33,960 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:04:33,964 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:04:33,968 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:04:33,971 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:04:33,973 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:04:33,973 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:04:33,974 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:04:33
+2026-05-31 22:04:33,974 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 22:04:33,974 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-31 22:06:12,946 | INFO | strategy_generator | Strategy generated for @dentalb_ku (12818 characters)
+2026-05-31 22:06:12,965 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:06:12,967 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:06:12,968 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:06:12,970 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:06:12,972 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:06:12,972 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:06:12,974 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:06:12
+2026-05-31 22:06:12,976 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:06:12,977 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:06:12,978 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:06:12,981 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:06:12,983 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:06:12,983 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:06:12,983 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 22:06:12,983 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 22:07:49,073 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (11276 characters)
