@@ -7,4 +7,6 @@ python-dotenv
 anthropic
 streamlit
 plotly
+markdown
+schedule
 pytest

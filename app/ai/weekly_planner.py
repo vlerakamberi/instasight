@@ -31,6 +31,12 @@ SYSTEM_PROMPT = (
     "- What photo/video to take (specific instructions)\n"
     "- Expected engagement based on historical data\n\n"
     "Base EVERYTHING on the real account data provided.\n\n"
+    "Write in a direct, professional tone like a senior "
+    "marketing consultant writing to a client. "
+    "No excessive emojis. No ALL CAPS headers. "
+    "Use proper markdown with ## headers and bullet points. "
+    "Be specific and data-driven but conversational. "
+    "Avoid generic marketing language.\n\n"
     + BENCHMARK_CONTEXT
 )
 

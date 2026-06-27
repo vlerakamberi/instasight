@@ -1041,3 +1041,1787 @@
 2026-05-31 22:06:12,983 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
 2026-05-31 22:06:12,983 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
 2026-05-31 22:07:49,073 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (11276 characters)
+2026-05-31 22:37:42,190 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:37:42,193 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:37:42,194 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:37:42,196 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:37:42,197 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:37:42,197 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:37:42,199 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:37:42
+2026-05-31 22:37:42,202 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:37:42,204 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:37:42,206 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:37:42,209 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:37:42,211 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:37:42,211 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:37:42,211 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 22:37:42,212 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 22:39:18,529 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (11480 characters)
+2026-05-31 22:39:23,004 | INFO | email_sender | Weekly plan email sent to vkamberi97@gmail.com for @dentalb_ku
+2026-05-31 22:45:34,139 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:45:34,140 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:45:34,141 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:45:34,143 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:45:34,145 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:45:34,145 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:45:34,146 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:45:34
+2026-05-31 22:45:34,274 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 22:45:39,421 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 22:45:44,469 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:45:44,471 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:45:44,472 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:45:44,473 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:45:44,474 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:45:44,474 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:45:44,475 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:45:44
+2026-05-31 22:45:44,476 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:45:44,477 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:45:44,478 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:45:44,480 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:45:44,481 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:45:44,481 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:45:44,481 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 22:45:44,482 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 22:47:16,543 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (11989 characters)
+2026-05-31 22:47:16,632 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:47:16,634 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:47:16,635 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:47:16,638 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:47:16,640 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:47:16,640 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:47:16,641 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:47:16
+2026-05-31 22:49:37,638 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 22:49:37,639 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 22:49:37,640 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 22:49:37,641 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 22:49:37,642 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 22:49:37,643 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 22:49:37,643 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T22:49:37
+2026-05-31 22:50:00,727 | INFO | email_sender | Weekly plan email sent to vkamberi97@gmail.com for @dentalb_ku
+2026-05-31 23:02:35,628 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:02:35,630 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 23:02:35,631 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:02:35,632 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:02:35,634 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:02:35,634 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 23:02:35,635 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T23:02:35
+2026-05-31 23:02:35,672 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 23:02:43,759 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:02:43,760 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 23:02:43,761 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:02:43,761 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:02:43,762 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:02:43,762 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 23:02:43,765 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:02:43,766 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 23:02:43,767 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:02:43,768 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:02:43,769 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:02:43,769 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 23:02:43,770 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T23:02:43
+2026-05-31 23:02:43,771 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:02:43,772 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 23:02:43,774 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:02:43,775 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:02:43,776 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:02:43,776 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 23:02:43,776 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 23:02:43,777 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-05-31 23:04:20,067 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (12192 characters)
+2026-05-31 23:06:33,180 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 23:06:39,635 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-05-31 23:06:40,696 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:06:40,696 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:06:40,697 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:06:40,698 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:07:15,381 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:07:15,382 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:07:15,383 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:07:15,384 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:07:19,362 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:07:19,362 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 23:07:19,363 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:07:19,364 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:07:19,364 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:07:19,364 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 23:07:19,365 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T23:07:19
+2026-05-31 23:07:19,365 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 23:07:19,365 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-31 23:08:39,217 | INFO | strategy_generator | Strategy generated for @dentalb_ku (10139 characters)
+2026-05-31 23:21:49,896 | INFO | sync_service | Fetching account profile...
+2026-05-31 23:21:50,449 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-31 23:21:50,921 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: Session has expired on Monday, 25-May-26 06:00:00 PDT. The current time is Sunday, 31-May-26 14:21:50 PDT.
+2026-05-31 23:21:52,396 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-31 23:21:52,882 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: Session has expired on Monday, 25-May-26 06:00:00 PDT. The current time is Sunday, 31-May-26 14:21:52 PDT.
+2026-05-31 23:21:55,377 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-05-31 23:21:55,891 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: Session has expired on Monday, 25-May-26 06:00:00 PDT. The current time is Sunday, 31-May-26 14:21:55 PDT.
+2026-05-31 23:22:03,240 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-05-31 23:22:03,241 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-05-31 23:22:03,242 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-05-31 23:22:03,243 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-05-31 23:22:03,244 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-05-31 23:22:03,244 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-05-31 23:22:03,245 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-05-31T23:22:03
+2026-05-31 23:22:03,245 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-05-31 23:22:03,245 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-05-31 23:23:36,825 | INFO | strategy_generator | Strategy generated for @dentalb_ku (13602 characters)
+2026-06-01 21:05:43,924 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-01 21:05:43,925 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-01 21:05:43,926 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-01 21:05:43,927 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-01 21:05:43,928 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-01 21:05:43,928 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-01 21:05:43,929 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-01T21:05:43
+2026-06-01 21:05:44,242 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-01 21:05:55,587 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-01 21:05:55,588 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-01 21:05:55,589 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-01 21:05:55,590 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-01 21:05:55,591 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-01 21:05:55,591 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-01 21:05:55,595 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-01 21:05:55,595 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-01 21:05:55,596 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-01 21:05:55,597 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-01 21:05:55,598 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-01 21:05:55,598 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-01 21:05:55,598 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-01T21:05:55
+2026-06-01 21:05:55,600 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-01 21:05:55,601 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-01 21:05:55,602 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-01 21:05:55,603 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-01 21:05:55,605 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-01 21:05:55,605 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-01 21:05:55,605 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-06-01 21:05:55,606 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-01 to 2026-06-07)
+2026-06-01 21:07:27,133 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (12218 characters)
+2026-06-04 15:05:23,601 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:05:23,603 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:05:23,603 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:05:23,604 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:05:23,605 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:05:23,605 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:05:23,606 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T15:05:23
+2026-06-04 15:05:23,607 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:05:23,607 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:05:23,608 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:05:23,608 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:05:23,609 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:05:23,609 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:05:23,609 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3863 characters
+2026-06-04 15:10:14,754 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:10:14,755 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:10:14,756 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:10:14,757 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:10:14,758 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:10:14,758 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:10:14,759 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T15:10:14
+2026-06-04 15:10:15,168 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:10:38,269 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:10:38,270 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:10:38,271 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:10:38,272 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:10:39,908 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:10:39,909 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:10:39,910 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:10:39,911 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:41:39,754 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:41:39,755 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:41:39,756 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:41:39,757 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:41:39,758 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:41:39,758 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:41:39,766 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:41:39,768 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:41:39,773 | WARNING | monitoring | Alert [engagement_drop] for 17841409576371357: Engagement rate dropped from 5.0% to 1.72% (65.6% decrease) compared to yesterday.
+2026-06-04 15:41:39,774 | WARNING | monitoring | Alert [posting_inactivity] for 17841409576371357: No posts in the last 7 days. Instagram algorithm penalizes inactive accounts.
+2026-06-04 15:41:39,777 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:41:39,781 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:41:39,783 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:41:39,784 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:41:39,786 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:41:39,787 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:41:39,787 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:41:39,793 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:41:39,795 | WARNING | monitoring | Alert [engagement_drop] for 17841409576371357: Engagement rate dropped from 5.0% to 1.72% (65.6% decrease) compared to yesterday.
+2026-06-04 15:41:39,795 | WARNING | monitoring | Alert [posting_inactivity] for 17841409576371357: No posts in the last 7 days. Instagram algorithm penalizes inactive accounts.
+2026-06-04 15:41:39,798 | INFO | monitoring | Monitoring complete: 2 alerts generated
+2026-06-04 15:48:56,220 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 15:48:56,221 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:48:56,226 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:48:56,228 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:48:56,232 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:48:56,234 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:48:56,237 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:48:56,238 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:48:56,257 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:48:56,259 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:48:56,260 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 15:48:56,260 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 15:48:56,261 | INFO | scheduler | Job complete
+2026-06-04 15:48:56,262 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 15:48:56,348 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:48:59,152 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 15:48:59,152 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:48:59,158 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:48:59,162 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:48:59,164 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:48:59,168 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:48:59,170 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:48:59,171 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:48:59,180 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:48:59,183 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:48:59,183 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 15:48:59,183 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 15:48:59,184 | INFO | scheduler | Job complete
+2026-06-04 15:48:59,185 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 15:48:59,255 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:49:10,474 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:49:10,480 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:49:10,482 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:49:10,483 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:49:10,485 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:49:10,487 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:49:10,487 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:49:10,504 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:49:10,508 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:49:10,508 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 15:49:10,564 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:50:15,206 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:50:15,209 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:50:15,210 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:50:15,211 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:50:15,213 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:50:15,215 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:50:15,215 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:50:15,232 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:50:15,233 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:50:15,234 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 15:50:15,309 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:50:16,879 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:50:16,883 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:50:16,886 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:50:16,889 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:50:16,892 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:50:16,898 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:50:16,899 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:50:16,918 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:50:16,920 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:50:16,921 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 15:50:16,970 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:52:03,045 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 0 snapshots
+2026-06-04 15:52:03,047 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 0 snapshots
+2026-06-04 15:52:03,053 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 2 snapshots
+2026-06-04 15:52:03,054 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 2 snapshots
+2026-06-04 15:56:44,018 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 15:56:44,019 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 15:56:44,023 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 15:56:44,025 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 15:56:44,026 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 15:56:44,028 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 15:56:44,030 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 15:56:44,030 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 15:56:44,052 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 15:56:44,053 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 15:56:44,053 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 15:56:44,054 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 15:56:44,054 | INFO | scheduler | Job complete
+2026-06-04 15:56:44,055 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 15:56:44,128 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 15:56:57,727 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 15:56:57,729 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 15:57:27,055 | INFO | sync_service | Fetching account profile...
+2026-06-04 15:57:28,159 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 15:57:28,790 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 15:57:30,463 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 15:57:31,124 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 15:57:33,819 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 15:57:34,463 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 15:57:34,478 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 15:57:34,479 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 16:04:30,729 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:04:30,730 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:04:30,732 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:04:30,734 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:04:30,735 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:04:30,738 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:04:30,742 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:04:30,742 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:04:30,760 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:04:30,763 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:04:30,764 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:04:30,765 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:04:30,766 | INFO | scheduler | Job complete
+2026-06-04 16:04:30,768 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:04:30,862 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:05:40,124 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:05:40,798 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:05:41,441 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:05:43,072 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:05:43,652 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:05:46,303 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:05:47,036 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:05:47,117 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:06:35,297 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:06:35,298 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:06:35,301 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:06:35,303 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:06:35,305 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:06:35,308 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:06:35,311 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:06:35,311 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:06:35,328 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:06:35,332 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:06:35,332 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:06:35,332 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:06:35,333 | INFO | scheduler | Job complete
+2026-06-04 16:06:35,334 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:06:35,407 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:06:37,362 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:06:38,040 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:06:38,699 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:06:40,304 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:06:40,960 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:06:43,570 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:06:44,148 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:06:44,209 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:07:59,685 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:07:59,685 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:07:59,688 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:07:59,690 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:07:59,691 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:07:59,692 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:07:59,695 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:07:59,695 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:07:59,702 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:07:59,703 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:07:59,704 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:07:59,704 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:07:59,704 | INFO | scheduler | Job complete
+2026-06-04 16:07:59,707 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:07:59,799 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:08:01,521 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:08:03,360 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:08:03,957 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:08:05,594 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:08:06,219 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:08:08,859 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:08:09,446 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:08:09,520 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:08:36,996 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:08:36,997 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:08:36,999 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:08:37,000 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:08:37,001 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:08:37,003 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:08:37,005 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:08:37,005 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:08:37,010 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:08:37,013 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:08:37,013 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:08:37,014 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:08:37,014 | INFO | scheduler | Job complete
+2026-06-04 16:08:37,015 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:08:37,082 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:08:39,064 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:08:39,650 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:08:40,266 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:08:41,875 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:08:42,538 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:08:45,155 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:08:45,709 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:08:45,769 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:11:16,940 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:11:16,940 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:11:16,943 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:11:16,944 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:11:16,946 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:11:16,948 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:11:16,950 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:11:16,950 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:11:16,969 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:11:16,971 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:11:16,971 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:11:16,971 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:11:16,972 | INFO | scheduler | Job complete
+2026-06-04 16:11:16,973 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:11:16,978 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:11:16,979 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:11:16,981 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:11:16,984 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:11:16,984 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:11:16,985 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:11:16,987 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T16:11:16
+2026-06-04 16:11:17,066 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:11:19,216 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:11:19,978 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:11:20,755 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:11:22,460 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:11:23,130 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:11:25,726 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:11:26,361 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:11:26,423 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:13:18,374 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:13:18,375 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:13:18,378 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:13:18,379 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:13:18,382 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:13:18,383 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:13:18,384 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:13:18,385 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:13:18,404 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:13:18,406 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:13:18,406 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:13:18,407 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:13:18,407 | INFO | scheduler | Job complete
+2026-06-04 16:13:18,408 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:13:18,497 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:13:20,757 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:13:21,360 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:13:22,044 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:13:23,683 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:13:24,368 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:13:27,013 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 16:13:27,632 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: The session is invalid because the user logged out.
+2026-06-04 16:13:27,700 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:17:29,815 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 16:17:29,816 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:17:29,818 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:17:29,819 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:17:29,821 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:17:29,823 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:17:29,824 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:17:29,824 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:17:29,832 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.72%, posts_this_week=0)
+2026-06-04 16:17:29,833 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:17:29,834 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:17:29,834 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 16:17:29,835 | INFO | scheduler | Job complete
+2026-06-04 16:17:29,837 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 16:17:29,845 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.72% (20 posts)
+2026-06-04 16:17:29,847 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:17:29,848 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 263.71 weeks
+2026-06-04 16:17:29,850 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:17:29,852 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:17:29,852 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:17:29,853 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T16:17:29
+2026-06-04 16:17:30,023 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:17:32,336 | INFO | sync_service | Fetching account profile...
+2026-06-04 16:17:33,372 | INFO | sync_service | Fetching recent media...
+2026-06-04 16:17:34,429 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-06-04 16:17:34,440 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-06-04 16:17:34,441 | INFO | sync_service | Post saved: 18252569503306786
+2026-06-04 16:17:34,441 | INFO | sync_service | Fetching insights for post: 18252569503306786
+2026-06-04 16:17:35,144 | INFO | sync_service | Insights saved for post: 18252569503306786
+2026-06-04 16:17:35,144 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-06-04 16:17:35,145 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-06-04 16:17:35,901 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-06-04 16:17:35,902 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-06-04 16:17:35,902 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-06-04 16:17:36,650 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-06-04 16:17:36,651 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-06-04 16:17:36,651 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-06-04 16:17:37,723 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-06-04 16:17:37,724 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-06-04 16:17:37,724 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-06-04 16:17:38,453 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-06-04 16:17:38,454 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-06-04 16:17:38,455 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-06-04 16:17:39,192 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-06-04 16:17:39,192 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-06-04 16:17:39,193 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-06-04 16:17:40,152 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-06-04 16:17:40,154 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-06-04 16:17:40,154 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-06-04 16:17:40,990 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-06-04 16:17:40,991 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-06-04 16:17:40,992 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-06-04 16:17:41,776 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-06-04 16:17:41,776 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-06-04 16:17:41,777 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-06-04 16:17:42,584 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-06-04 16:17:42,585 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-06-04 16:17:42,585 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-06-04 16:17:43,404 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-06-04 16:17:43,405 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-06-04 16:17:43,405 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-06-04 16:17:45,089 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-06-04 16:17:45,090 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-06-04 16:17:45,091 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-06-04 16:17:45,896 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-06-04 16:17:45,897 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-06-04 16:17:45,897 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-06-04 16:17:46,679 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-06-04 16:17:46,679 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-06-04 16:17:46,680 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-06-04 16:17:47,501 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-06-04 16:17:47,501 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-06-04 16:17:47,502 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-06-04 16:17:48,201 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-06-04 16:17:48,202 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-06-04 16:17:48,203 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-06-04 16:17:48,893 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-06-04 16:17:48,894 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-06-04 16:17:48,894 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-06-04 16:17:49,614 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-06-04 16:17:49,615 | INFO | sync_service | Post skipped (already exists): 17873869571478679
+2026-06-04 16:17:49,615 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-06-04 16:17:50,325 | INFO | sync_service | Insights saved for post: 17873869571478679
+2026-06-04 16:17:50,326 | INFO | sync_service | Post skipped (already exists): 18114497440174052
+2026-06-04 16:17:50,327 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-06-04 16:17:51,068 | INFO | sync_service | Insights saved for post: 18114497440174052
+2026-06-04 16:17:51,083 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=1, insights_synced=20
+2026-06-04 16:17:51,178 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:17:51,180 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:17:51,182 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:17:51,185 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:17:51,187 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:17:51,188 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:17:51,190 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T16:17:51
+2026-06-04 16:17:51,249 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:18:14,432 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:18:14,438 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:18:14,439 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:18:14,440 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:18:14,443 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:18:14,446 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:18:14,446 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:18:14,451 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 16:18:14,454 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:18:14,454 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:18:14,512 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:20:39,286 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 16:20:39,288 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 16:20:47,264 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:20:47,267 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:20:47,268 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:20:47,269 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:20:47,270 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:20:47,272 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:20:47,273 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:20:47,290 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 16:20:47,292 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:20:47,292 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:20:47,298 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 16:20:47,300 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 16:20:52,957 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 16:20:52,958 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 16:20:54,574 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:20:54,578 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:20:54,580 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:20:54,581 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:20:54,584 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:20:54,585 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:20:54,585 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:20:54,603 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 16:20:54,605 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:20:54,605 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:20:54,610 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 16:20:54,611 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 16:20:59,199 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:20:59,204 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:20:59,207 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:20:59,210 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:20:59,212 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:20:59,213 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:20:59,213 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:20:59,218 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 16:20:59,219 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:20:59,219 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 16:20:59,226 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 16:20:59,227 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 16:22:48,293 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:22:48,296 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:22:48,298 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:22:48,300 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:23:01,340 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:23:01,342 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:23:01,343 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:23:01,348 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:23:02,874 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:25:19,162 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 16:25:23,672 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:25:23,674 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:25:23,675 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:25:23,676 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:25:23,677 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:25:23,677 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:25:23,680 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T16:25:23
+2026-06-04 16:25:23,683 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:25:23,685 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:25:23,686 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:25:23,688 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:25:23,689 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:25:23,690 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:25:23,690 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 16:25:23,692 | INFO | performance_advisor | Generating performance advice for @dentalb_ku (account_id=17841409576371357)
+2026-06-04 16:26:12,593 | INFO | performance_advisor | Performance advice generated for @dentalb_ku (4302 characters)
+2026-06-04 16:30:50,261 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:30:50,261 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:30:50,262 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:30:50,264 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:30:50,265 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:30:50,265 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:30:50,266 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T16:30:50
+2026-06-04 16:30:50,266 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 16:30:50,266 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-06-04 16:32:17,221 | INFO | strategy_generator | Strategy generated for @dentalb_ku (12539 characters)
+2026-06-04 16:33:46,529 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 16:33:46,530 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 16:33:46,532 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 16:33:46,534 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 16:33:46,534 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 16:33:46,536 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 16:33:46,537 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 16:33:46,554 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 16:33:46,556 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 16:33:46,557 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:10:45,174 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:10:45,176 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:10:45,177 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:10:45,178 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:10:45,179 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:10:45,179 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:10:45,186 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:10:45,188 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:10:45,190 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:10:45,191 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:10:45,192 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:10:45,193 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:10:45,194 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:10:45,194 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:10:45,199 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:10:45,200 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:10:45,200 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:10:45,202 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:10:45,205 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:10:45,206 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:10:45,206 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:10:45,207 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:10:45,208 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:10:45,209 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:10:45,212 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:10:45,214 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:10:45,214 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:10:45,218 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 18:10:45,220 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 18:10:45,222 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 18:15:20,701 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:15:20,701 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:15:20,703 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:15:20,705 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:15:20,706 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:15:20,708 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:15:20,710 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:15:20,710 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:15:20,726 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:15:20,727 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:15:20,727 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:15:20,728 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:15:20,728 | INFO | scheduler | Job complete
+2026-06-04 18:15:20,729 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:15:20,732 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:15:20,734 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:15:20,736 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:15:20,737 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:15:20,739 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:15:20,739 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:15:20,740 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:15:20
+2026-06-04 18:15:20,750 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:15:21,397 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:15:21,929 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:15:22 PDT.
+2026-06-04 18:15:23,474 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:15:24,029 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:15:24 PDT.
+2026-06-04 18:15:26,513 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:15:27,024 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:15:27 PDT.
+2026-06-04 18:15:27,072 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:16:30,532 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:16:30,532 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:16:30,534 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:16:30,535 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:16:30,536 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:16:30,537 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:16:30,538 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:16:30,538 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:16:30,554 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:16:30,555 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:16:30,555 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:16:30,556 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:16:30,556 | INFO | scheduler | Job complete
+2026-06-04 18:16:30,557 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:16:30,561 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:16:30,562 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:16:30,563 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:16:30,564 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:16:30,565 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:16:30,565 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:16:30,566 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:16:30
+2026-06-04 18:16:30,661 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:16:35,177 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:16:35,786 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:16:36,334 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:16:36 PDT.
+2026-06-04 18:16:37,910 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:16:38,472 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:16:38 PDT.
+2026-06-04 18:16:41,008 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:16:41,551 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:16:41 PDT.
+2026-06-04 18:16:41,600 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:16:58,410 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:16:58,991 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:16:59,494 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:16:59 PDT.
+2026-06-04 18:17:01,054 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:17:01,557 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:17:01 PDT.
+2026-06-04 18:17:04,063 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:17:04,676 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Error validating access token: Session has expired on Thursday, 04-Jun-26 09:00:00 PDT. The current time is Thursday, 04-Jun-26 09:17:04 PDT.
+2026-06-04 18:17:04,722 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:18:30,781 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:18:30,782 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:18:30,786 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:18:30,787 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:18:30,788 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:18:30,791 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:18:30,793 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:18:30,793 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:18:30,809 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:18:30,810 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:18:30,811 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:18:30,811 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:18:30,811 | INFO | scheduler | Job complete
+2026-06-04 18:18:30,812 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:18:30,817 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:18:30,819 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:18:30,820 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:18:30,823 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:18:30,824 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:18:30,824 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:18:30,826 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:18:30
+2026-06-04 18:18:30,931 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:18:32,407 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:18:33,096 | INFO | sync_service | Fetching recent media...
+2026-06-04 18:18:36,483 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-06-04 18:18:36,493 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-06-04 18:18:36,494 | INFO | sync_service | Post skipped (already exists): 18252569503306786
+2026-06-04 18:18:36,494 | INFO | sync_service | Fetching insights for post: 18252569503306786
+2026-06-04 18:18:37,165 | INFO | sync_service | Insights saved for post: 18252569503306786
+2026-06-04 18:18:37,166 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-06-04 18:18:37,166 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-06-04 18:18:37,863 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-06-04 18:18:37,864 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-06-04 18:18:37,864 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-06-04 18:18:38,581 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-06-04 18:18:38,582 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-06-04 18:18:38,582 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-06-04 18:18:39,252 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-06-04 18:18:39,253 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-06-04 18:18:39,253 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-06-04 18:18:39,885 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-06-04 18:18:39,885 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-06-04 18:18:39,885 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-06-04 18:18:40,533 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-06-04 18:18:40,534 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-06-04 18:18:40,534 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-06-04 18:18:41,253 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-06-04 18:18:41,254 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-06-04 18:18:41,255 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-06-04 18:18:42,020 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-06-04 18:18:42,021 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-06-04 18:18:42,021 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-06-04 18:18:42,698 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-06-04 18:18:42,699 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-06-04 18:18:42,699 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-06-04 18:18:43,379 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-06-04 18:18:43,379 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-06-04 18:18:43,380 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-06-04 18:18:44,055 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-06-04 18:18:44,055 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-06-04 18:18:44,056 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-06-04 18:18:44,726 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-06-04 18:18:44,726 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-06-04 18:18:44,726 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-06-04 18:18:45,372 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-06-04 18:18:45,373 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-06-04 18:18:45,373 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-06-04 18:18:46,093 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-06-04 18:18:46,093 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-06-04 18:18:46,094 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-06-04 18:18:46,782 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-06-04 18:18:46,783 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-06-04 18:18:46,783 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-06-04 18:18:47,485 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-06-04 18:18:47,485 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-06-04 18:18:47,486 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-06-04 18:18:48,156 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-06-04 18:18:48,157 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-06-04 18:18:48,157 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-06-04 18:18:48,895 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-06-04 18:18:48,895 | INFO | sync_service | Post skipped (already exists): 17873869571478679
+2026-06-04 18:18:48,896 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-06-04 18:18:51,152 | INFO | sync_service | Insights saved for post: 17873869571478679
+2026-06-04 18:18:51,152 | INFO | sync_service | Post skipped (already exists): 18114497440174052
+2026-06-04 18:18:51,153 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-06-04 18:18:51,865 | INFO | sync_service | Insights saved for post: 18114497440174052
+2026-06-04 18:18:51,880 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=0, insights_synced=20
+2026-06-04 18:18:51,965 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:18:51,969 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:18:51,971 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:18:51,974 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:18:51,976 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:18:51,976 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:18:51,978 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:18:51
+2026-06-04 18:18:52,028 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:24:03,285 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:24:03,285 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:24:03,288 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:24:03,289 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:24:03,290 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:24:03,291 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:24:03,293 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:24:03,293 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:24:03,310 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:24:03,311 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:24:03,311 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:24:03,312 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:24:03,312 | INFO | scheduler | Job complete
+2026-06-04 18:24:03,313 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:24:03,317 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:24:03,318 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:24:03,319 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:24:03,321 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:24:03,323 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:24:03,323 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:24:03,324 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:24:03
+2026-06-04 18:24:03,442 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:24:06,972 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:24:07,526 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:24:08,043 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:24:09,583 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:24:10,064 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:24:12,600 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:24:13,123 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:24:13,168 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:25:02,481 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:25:02,481 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:25:02,483 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:25:02,486 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:25:02,487 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:25:02,488 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:25:02,490 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:25:02,490 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:25:02,495 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:25:02,496 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:25:02,496 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:25:02,497 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:25:02,497 | INFO | scheduler | Job complete
+2026-06-04 18:25:02,498 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:25:02,545 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:25:05,013 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:25:05,553 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:25:06,073 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:25:07,566 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:25:08,056 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:25:10,561 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:25:11,066 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:25:11,115 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:26:20,580 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:26:20,580 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:26:20,583 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:26:20,584 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:26:20,585 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:26:20,586 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:26:20,587 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:26:20,587 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:26:20,603 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:26:20,604 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:26:20,605 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:26:20,605 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:26:20,605 | INFO | scheduler | Job complete
+2026-06-04 18:26:20,605 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:26:20,655 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:26:22,662 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:26:23,197 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:26:23,727 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 1/3. Retrying in 1.0s. Error: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:26:25,288 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:26:25,799 | WARNING | meta_client | Operation 'get_profile_info' failed on attempt 2/3. Retrying in 2.0s. Error: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:26:28,337 | WARNING | meta_client | Profile fetch with media_count failed, retrying minimal fields.
+2026-06-04 18:26:28,865 | ERROR | meta_client | Operation 'get_profile_info' failed after 3 attempts: Meta API error: Invalid OAuth access token - Cannot parse access token
+2026-06-04 18:26:28,915 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:27:22,760 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:27:22,761 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:27:22,766 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:27:22,769 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:27:22,771 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:27:22,773 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:27:22,774 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:27:22,775 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:27:22,791 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:27:22,792 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:27:22,792 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:27:22,792 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:27:22,792 | INFO | scheduler | Job complete
+2026-06-04 18:27:22,793 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:27:22,798 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:27:22,799 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:27:22,800 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:27:22,803 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:27:22,804 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:27:22,804 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:27:22,806 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:27:22
+2026-06-04 18:27:22,930 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:27:24,249 | INFO | sync_service | Fetching account profile...
+2026-06-04 18:27:24,961 | INFO | sync_service | Fetching recent media...
+2026-06-04 18:27:25,908 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-06-04 18:27:25,919 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-06-04 18:27:25,919 | INFO | sync_service | Post skipped (already exists): 18252569503306786
+2026-06-04 18:27:25,919 | INFO | sync_service | Fetching insights for post: 18252569503306786
+2026-06-04 18:27:26,651 | INFO | sync_service | Insights saved for post: 18252569503306786
+2026-06-04 18:27:26,652 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-06-04 18:27:26,652 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-06-04 18:27:27,319 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-06-04 18:27:27,319 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-06-04 18:27:27,321 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-06-04 18:27:28,392 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-06-04 18:27:28,393 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-06-04 18:27:28,393 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-06-04 18:27:29,046 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-06-04 18:27:29,047 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-06-04 18:27:29,048 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-06-04 18:27:29,697 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-06-04 18:27:29,697 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-06-04 18:27:29,698 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-06-04 18:27:30,333 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-06-04 18:27:30,334 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-06-04 18:27:30,334 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-06-04 18:27:30,999 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-06-04 18:27:31,000 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-06-04 18:27:31,000 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-06-04 18:27:31,625 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-06-04 18:27:31,625 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-06-04 18:27:31,625 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-06-04 18:27:32,284 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-06-04 18:27:32,285 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-06-04 18:27:32,285 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-06-04 18:27:32,928 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-06-04 18:27:32,929 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-06-04 18:27:32,929 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-06-04 18:27:33,607 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-06-04 18:27:33,607 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-06-04 18:27:33,608 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-06-04 18:27:34,262 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-06-04 18:27:34,263 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-06-04 18:27:34,263 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-06-04 18:27:35,734 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-06-04 18:27:35,735 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-06-04 18:27:35,735 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-06-04 18:27:36,398 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-06-04 18:27:36,399 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-06-04 18:27:36,399 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-06-04 18:27:37,066 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-06-04 18:27:37,067 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-06-04 18:27:37,067 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-06-04 18:27:37,755 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-06-04 18:27:37,756 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-06-04 18:27:37,756 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-06-04 18:27:38,474 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-06-04 18:27:38,475 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-06-04 18:27:38,475 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-06-04 18:27:39,128 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-06-04 18:27:39,129 | INFO | sync_service | Post skipped (already exists): 17873869571478679
+2026-06-04 18:27:39,130 | INFO | sync_service | Fetching insights for post: 17873869571478679
+2026-06-04 18:27:39,784 | INFO | sync_service | Insights saved for post: 17873869571478679
+2026-06-04 18:27:39,785 | INFO | sync_service | Post skipped (already exists): 18114497440174052
+2026-06-04 18:27:39,785 | INFO | sync_service | Fetching insights for post: 18114497440174052
+2026-06-04 18:27:41,710 | INFO | sync_service | Insights saved for post: 18114497440174052
+2026-06-04 18:27:41,726 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=0, insights_synced=20
+2026-06-04 18:27:41,803 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:27:41,805 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:27:41,807 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:27:41,810 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:27:41,812 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:27:41,812 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:27:41,814 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:27:41
+2026-06-04 18:27:41,870 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:29:50,943 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:29:50,944 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:29:50,945 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:29:50,946 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:29:50,947 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:29:50,947 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:29:50,947 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:29:50
+2026-06-04 18:29:50,949 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:29:50,950 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:29:50,950 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:29:50,952 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:29:50,953 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:29:50,953 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:29:50,954 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 18:29:50,954 | INFO | performance_advisor | Generating performance advice for @dentalb_ku (account_id=17841409576371357)
+2026-06-04 18:30:37,781 | INFO | performance_advisor | Performance advice generated for @dentalb_ku (4281 characters)
+2026-06-04 18:32:59,676 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:32:59,677 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:32:59,677 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:32:59,679 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:32:59,680 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:32:59,680 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:32:59,681 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:32:59
+2026-06-04 18:32:59,682 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 18:32:59,682 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-06-04 18:34:31,425 | INFO | strategy_generator | Strategy generated for @dentalb_ku (13302 characters)
+2026-06-04 18:42:50,924 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:42:50,924 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:42:50,926 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:42:50,926 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:42:50,927 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:42:50,928 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:42:50,929 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:42:50,929 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:42:50,945 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:42:50,946 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:42:50,946 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:42:50,946 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:42:50,947 | INFO | scheduler | Job complete
+2026-06-04 18:42:50,947 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:42:50,950 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:42:50,950 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:42:50,951 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:42:50,952 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:42:50,953 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:42:50,953 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:42:50,954 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:42:50
+2026-06-04 18:42:51,200 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:42:54,622 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:42:54,622 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:42:54,623 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:42:54,624 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:42:54,624 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:42:54,625 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:42:54,625 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:42:54
+2026-06-04 18:42:54,625 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 18:43:53,198 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:43:53,199 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:43:53,200 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:43:53,201 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:43:53,204 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:43:53,204 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:43:53,205 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T18:43:53
+2026-06-04 18:43:53,205 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 18:50:48,158 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:54:42,153 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:54:42,153 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:54:42,155 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:54:42,155 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:54:42,156 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:54:42,157 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:54:42,158 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:54:42,158 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:54:42,173 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:54:42,174 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:54:42,175 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:54:42,175 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:54:42,175 | INFO | scheduler | Job complete
+2026-06-04 18:54:42,175 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:54:42,213 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 18:58:37,043 | INFO | scheduler | Running scheduled monitoring job
+2026-06-04 18:58:37,044 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 18:58:37,045 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 18:58:37,046 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 18:58:37,046 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 18:58:37,047 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 18:58:37,048 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 18:58:37,049 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 18:58:37,064 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 18:58:37,065 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 18:58:37,065 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 18:58:37,066 | INFO | scheduler | No alerts — account performing normally
+2026-06-04 18:58:37,066 | INFO | scheduler | Job complete
+2026-06-04 18:58:37,066 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-04 18:58:37,100 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 19:01:58,454 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:01:58,455 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:01:58,456 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:01:58,457 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:01:59,266 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:01:59,267 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:01:59,268 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:01:59,268 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:02:01,120 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 19:25:57,098 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-04 19:26:00,522 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 19:26:00,523 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 19:26:02,781 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 19:26:02,782 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 19:26:05,480 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:26:05,480 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:26:05,480 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:26:05,481 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:26:07,555 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:26:07,555 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:26:07,556 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:26:07,557 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:26:37,811 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:26:37,812 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 19:26:37,813 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:26:37,814 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:26:37,815 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:26:37,816 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 19:26:37,817 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T19:26:37
+2026-06-04 19:26:37,817 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-04 19:28:18,482 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 19:28:18,485 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:28:18,485 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 19:28:18,486 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:28:18,487 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:28:18,488 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:28:18,488 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 19:28:18,502 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 19:28:18,503 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 19:28:18,503 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 19:28:25,946 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 19:28:25,947 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 1 snapshots
+2026-06-04 19:28:30,094 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 19:28:30,095 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 1 snapshots
+2026-06-04 19:48:44,455 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 19:48:44,457 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:48:44,458 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 19:48:44,460 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:48:44,461 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:48:44,463 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:48:44,463 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 19:48:44,467 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 19:48:44,469 | INFO | monitoring | Not enough snapshots for 17841409576371357 (1 found); skipping alerts.
+2026-06-04 19:48:44,469 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-04 19:49:54,162 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-04 19:49:54,165 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 19:49:54,166 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 19:49:54,167 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 19:49:54,168 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 19:49:54,169 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 19:49:54,170 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 19:49:54,187 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-04 (engagement=1.68%, posts_this_week=1)
+2026-06-04 19:49:54,189 | WARNING | monitoring | Alert [engagement_drop] for 17841409576371357: Engagement rate dropped from 1.9% to 1.68% (11.6% decrease) compared to yesterday.
+2026-06-04 19:49:54,193 | INFO | monitoring | Monitoring complete: 1 alerts generated
+2026-06-04 19:49:58,657 | INFO | email_sender | Alert email sent to vkamberi97@gmail.com for @dentalb_ku (1 alerts)
+2026-06-04 20:01:29,494 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-04 20:01:29,496 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-04 20:01:29,498 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-04 20:01:29,500 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-04 20:01:29,502 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-04 20:01:29,502 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-04 20:01:29,504 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-04T20:01:29
+2026-06-25 19:18:44,908 | INFO | scheduler | Running scheduled monitoring job
+2026-06-25 19:18:44,908 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-25 19:18:44,923 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:18:44,923 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-25 19:18:44,926 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:18:44,932 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:18:44,935 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:18:44,936 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-25 19:18:44,945 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-25 (engagement=1.68%, posts_this_week=0)
+2026-06-25 19:18:44,948 | WARNING | monitoring | Alert [posting_inactivity] for 17841409576371357: No posts in the last 7 days. Instagram algorithm penalizes inactive accounts.
+2026-06-25 19:18:44,952 | INFO | monitoring | Monitoring complete: 1 alerts generated
+2026-06-25 19:18:50,014 | INFO | email_sender | Alert email sent to vkamberi97@gmail.com for @dentalb_ku (1 alerts)
+2026-06-25 19:18:50,030 | INFO | scheduler | Alert email sent for 1 alerts
+2026-06-25 19:18:50,031 | INFO | scheduler | Job complete
+2026-06-25 19:18:50,031 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-25 19:18:50,031 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:18:50,042 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-25 19:18:50,046 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:18:50,046 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:18:50,052 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:18:50,052 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-25 19:18:50,052 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-25T19:18:50
+2026-06-25 19:18:50,445 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-25 19:20:01,692 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:20:01,692 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:20:01,698 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:20:01,698 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:20:15,086 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:20:15,086 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:20:15,090 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:20:15,090 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:20:16,275 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 6 snapshots
+2026-06-25 19:20:16,275 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 6 snapshots
+2026-06-25 19:20:28,654 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 6 snapshots
+2026-06-25 19:20:28,656 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 6 snapshots
+2026-06-25 19:20:33,389 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:20:33,389 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-25 19:20:33,393 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:20:33,396 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:20:33,396 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:20:33,396 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-25 19:20:33,396 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-25T19:20:33
+2026-06-25 19:20:33,403 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-25 19:20:36,265 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:20:36,265 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-25 19:20:36,269 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:20:36,269 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:20:36,271 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:20:36,271 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-25 19:20:36,275 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-25T19:20:36
+2026-06-25 19:20:36,275 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-25 19:20:37,562 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:20:37,564 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-25 19:20:37,564 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:20:37,569 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:20:37,569 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:20:37,569 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-25 19:20:37,569 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-25T19:20:37
+2026-06-25 19:20:37,569 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-25 19:21:28,331 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-25 19:21:28,333 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-25 19:21:28,334 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-25 19:21:28,334 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-25 19:21:28,336 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-25 19:21:28,336 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-25 19:21:28,338 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-25T19:21:28
+2026-06-25 19:21:28,338 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3864 characters
+2026-06-26 02:12:28,062 | INFO | scheduler | Running scheduled monitoring job
+2026-06-26 02:12:28,079 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-26 02:12:28,090 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-26 02:12:28,092 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:12:28,094 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-26 02:12:28,095 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-26 02:12:28,095 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-26 02:12:28,097 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:12:28,101 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-26 (engagement=1.68%, posts_this_week=0)
+2026-06-26 02:12:28,103 | WARNING | monitoring | Alert [posting_inactivity] for 17841409576371357: No posts in the last 7 days. Instagram algorithm penalizes inactive accounts.
+2026-06-26 02:12:28,105 | INFO | monitoring | Monitoring complete: 1 alerts generated
+2026-06-26 02:12:33,793 | INFO | email_sender | Alert email sent to vkamberi97@gmail.com for @dentalb_ku (1 alerts)
+2026-06-26 02:12:33,794 | INFO | scheduler | Alert email sent for 1 alerts
+2026-06-26 02:12:33,795 | INFO | scheduler | Job complete
+2026-06-26 02:12:33,796 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-26 02:12:33,802 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.68% (21 posts)
+2026-06-26 02:12:33,803 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:12:33,805 | INFO | metrics | posting_frequency(17841409576371357) = 0.07 posts/week over 282.86 weeks
+2026-06-26 02:12:33,809 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.88%)
+2026-06-26 02:12:33,811 | INFO | metrics | content_type_performance(17841409576371357) = 1 media types
+2026-06-26 02:12:33,811 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:12:33,812 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:12:33
+2026-06-26 02:12:33,980 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-26 02:12:49,123 | INFO | sync_service | Fetching account profile...
+2026-06-26 02:12:50,362 | INFO | sync_service | Fetching recent media...
+2026-06-26 02:12:51,272 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-06-26 02:12:51,272 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-06-26 02:12:51,272 | INFO | sync_service | Post saved: 18119621254745546
+2026-06-26 02:12:51,272 | INFO | sync_service | Fetching insights for post: 18119621254745546
+2026-06-26 02:12:52,223 | INFO | sync_service | Insights saved for post: 18119621254745546
+2026-06-26 02:12:52,229 | INFO | sync_service | Post saved: 18447054280141305
+2026-06-26 02:12:52,229 | INFO | sync_service | Fetching insights for post: 18447054280141305
+2026-06-26 02:12:53,715 | INFO | sync_service | Insights saved for post: 18447054280141305
+2026-06-26 02:12:53,715 | INFO | sync_service | Post skipped (already exists): 18252569503306786
+2026-06-26 02:12:53,715 | INFO | sync_service | Fetching insights for post: 18252569503306786
+2026-06-26 02:12:54,515 | INFO | sync_service | Insights saved for post: 18252569503306786
+2026-06-26 02:12:54,515 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-06-26 02:12:54,515 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-06-26 02:12:55,188 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-06-26 02:12:55,188 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-06-26 02:12:55,188 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-06-26 02:12:55,807 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-06-26 02:12:55,807 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-06-26 02:12:55,807 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-06-26 02:12:56,403 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-06-26 02:12:56,403 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-06-26 02:12:56,403 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-06-26 02:12:57,091 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-06-26 02:12:57,097 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-06-26 02:12:57,098 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-06-26 02:12:57,967 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-06-26 02:12:57,967 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-06-26 02:12:57,967 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-06-26 02:12:58,626 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-06-26 02:12:58,626 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-06-26 02:12:58,626 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-06-26 02:12:59,275 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-06-26 02:12:59,278 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-06-26 02:12:59,278 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-06-26 02:12:59,939 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-06-26 02:12:59,939 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-06-26 02:12:59,939 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-06-26 02:13:00,591 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-06-26 02:13:00,598 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-06-26 02:13:00,598 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-06-26 02:13:01,217 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-06-26 02:13:01,217 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-06-26 02:13:01,217 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-06-26 02:13:01,903 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-06-26 02:13:01,903 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-06-26 02:13:01,903 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-06-26 02:13:02,598 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-06-26 02:13:02,598 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-06-26 02:13:02,598 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-06-26 02:13:03,294 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-06-26 02:13:03,294 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-06-26 02:13:03,299 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-06-26 02:13:04,043 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-06-26 02:13:04,043 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-06-26 02:13:04,043 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-06-26 02:13:04,741 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-06-26 02:13:04,741 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-06-26 02:13:04,741 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-06-26 02:13:05,362 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-06-26 02:13:05,362 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-06-26 02:13:05,362 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-06-26 02:13:05,988 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-06-26 02:13:06,001 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=2, insights_synced=20
+2026-06-26 02:13:06,070 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:13:06,086 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:13:06,091 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:13:06,097 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:13:06,098 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:13:06,101 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:13:06,101 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:13:06
+2026-06-26 02:13:06,158 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-26 02:15:17,529 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-26 02:15:17,531 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:15:17,532 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:15:17,532 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:15:17,533 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:15:17,534 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:15:17,534 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:15:17,537 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-26 (engagement=1.63%, posts_this_week=1)
+2026-06-26 02:15:17,538 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-26 02:15:17,567 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-26 02:22:54,274 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:22:54,275 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:22:54,276 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:22:54,276 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:24:32,332 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:24:32,333 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:24:32,334 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:24:32,335 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:24:33,738 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:24:33,740 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:25:32,829 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:25:32,830 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:25:37,731 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:25:37,732 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:25:40,840 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:25:40,842 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:25:45,808 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:25:45,809 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:25:47,097 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:25:47,098 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:25:50,634 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:25:50,637 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:25:52,375 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:25:52,376 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:25:54,680 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:25:54,681 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:26:28,832 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:26:28,833 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:26:31,099 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:26:31,100 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:26:33,222 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:26:33,224 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:26:34,304 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:26:34,305 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=90) returned 7 snapshots
+2026-06-26 02:26:36,125 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:26:36,126 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=7) returned 3 snapshots
+2026-06-26 02:29:03,504 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:29:03,505 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:29:03,506 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:29:03,507 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:29:03,508 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:29:03,508 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:29:03,509 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:29:03
+2026-06-26 02:29:03,509 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-26 02:31:36,715 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:31:36,716 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:31:36,717 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:31:36,718 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:31:36,718 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:31:36,718 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:31:36,718 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:31:36
+2026-06-26 02:31:36,718 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-26 02:37:28,295 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:37:28,295 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:37:28,295 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:37:28,295 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:37:28,295 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:37:28,295 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:37:28,311 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:37:28,311 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:37:28,311 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:37:28,311 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:37:28,311 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:37:28,311 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:37:28,311 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:37:28
+2026-06-26 02:37:28,311 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:37:28,311 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:37:28,311 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:37:28,311 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:37:28,311 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:37:28,311 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:37:28,311 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-26 02:37:28,311 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-29 to 2026-07-05)
+2026-06-26 02:38:48,500 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (11066 characters)
+2026-06-26 02:38:54,320 | INFO | email_sender | Weekly plan email sent to vkamberi97@gmail.com for @dentalb_ku
+2026-06-26 02:38:54,334 | INFO | metrics | engagement_rate(18171459604377771) = 1.51%
+2026-06-26 02:38:54,334 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:38:54,334 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-26 02:38:54,343 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:38:54,343 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:38:54,343 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:38:54,343 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:38:54,343 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:38:54,343 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:38:54,350 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:38:54,350 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:38:54,350 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:38:54,364 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-26 (engagement=1.63%, posts_this_week=1)
+2026-06-26 02:38:54,364 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-26 02:38:54,364 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:38:54,364 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:38:54,364 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:38:54,371 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:38:54,371 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:38:54,371 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:38:54,371 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-26 (engagement=1.63%, posts_this_week=1)
+2026-06-26 02:38:54,371 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-26 02:38:54,371 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-26 02:38:54,378 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:38:54,378 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:38:54,378 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:38:54,378 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:38:54,378 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:38:54,378 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:38:54,378 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-26 (engagement=1.63%, posts_this_week=1)
+2026-06-26 02:38:54,378 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-26 02:38:54,385 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:38:54,385 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:38:54,385 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:38:54,385 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:38:54,392 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:38:54,392 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:38:54,392 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:38:54,392 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:38:54,392 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:38:54,392 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:38:54
+2026-06-26 02:38:54,392 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-26 02:38:54,392 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 1/3. Retrying in 0.0s. Error: temporary failure
+2026-06-26 02:38:54,408 | WARNING | test_retry | Operation 'flaky_operation' failed on attempt 2/3. Retrying in 0.0s. Error: temporary failure
+2026-06-26 02:38:54,429 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:38:54,433 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:38:54,434 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:38:54,435 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:38:54,435 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:38:54,435 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:38:54,436 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:38:54
+2026-06-26 02:38:54,436 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-26 02:38:54,436 | INFO | strategy_generator | Generating strategy for @dentalb_ku (account_id=17841409576371357)
+2026-06-26 02:40:19,480 | INFO | strategy_generator | Strategy generated for @dentalb_ku (11801 characters)
+2026-06-26 02:40:19,496 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:40:19,496 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:40:19,496 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:40:19,496 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:40:19,496 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:40:19,496 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:40:19,496 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-26T02:40:19
+2026-06-26 02:40:19,496 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:40:19,496 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-26 02:40:19,496 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:40:19,496 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:40:19,496 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:40:19,496 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-26 02:40:19,496 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-26 02:40:19,496 | INFO | weekly_planner | Generating weekly plan for @dentalb_ku (account_id=17841409576371357, week 2026-06-29 to 2026-07-05)
+2026-06-26 02:41:42,131 | INFO | weekly_planner | Weekly plan generated for @dentalb_ku (10849 characters)
+2026-06-26 02:44:58,675 | INFO | main | Initializing database...
+2026-06-26 02:44:58,675 | INFO | main | Starting account sync...
+2026-06-26 02:44:58,675 | INFO | sync_service | Fetching account profile...
+2026-06-26 02:44:59,601 | INFO | sync_service | Fetching recent media...
+2026-06-26 02:45:00,697 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-06-26 02:45:00,711 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-06-26 02:45:00,711 | INFO | sync_service | Post skipped (already exists): 18119621254745546
+2026-06-26 02:45:00,711 | INFO | sync_service | Fetching insights for post: 18119621254745546
+2026-06-26 02:45:01,335 | INFO | sync_service | Insights saved for post: 18119621254745546
+2026-06-26 02:45:01,336 | INFO | sync_service | Post skipped (already exists): 18447054280141305
+2026-06-26 02:45:01,336 | INFO | sync_service | Fetching insights for post: 18447054280141305
+2026-06-26 02:45:01,891 | INFO | sync_service | Insights saved for post: 18447054280141305
+2026-06-26 02:45:01,891 | INFO | sync_service | Post skipped (already exists): 18252569503306786
+2026-06-26 02:45:01,891 | INFO | sync_service | Fetching insights for post: 18252569503306786
+2026-06-26 02:45:02,663 | INFO | sync_service | Insights saved for post: 18252569503306786
+2026-06-26 02:45:02,663 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-06-26 02:45:02,663 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-06-26 02:45:03,260 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-06-26 02:45:03,266 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-06-26 02:45:03,267 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-06-26 02:45:03,829 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-06-26 02:45:03,835 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-06-26 02:45:03,836 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-06-26 02:45:04,425 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-06-26 02:45:04,425 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-06-26 02:45:04,425 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-06-26 02:45:05,304 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-06-26 02:45:05,304 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-06-26 02:45:05,304 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-06-26 02:45:05,892 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-06-26 02:45:05,892 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-06-26 02:45:05,892 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-06-26 02:45:06,456 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-06-26 02:45:06,456 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-06-26 02:45:06,456 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-06-26 02:45:07,009 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-06-26 02:45:07,009 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-06-26 02:45:07,009 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-06-26 02:45:07,626 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-06-26 02:45:07,627 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-06-26 02:45:07,628 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-06-26 02:45:08,245 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-06-26 02:45:08,245 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-06-26 02:45:08,246 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-06-26 02:45:08,822 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-06-26 02:45:08,822 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-06-26 02:45:08,822 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-06-26 02:45:09,384 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-06-26 02:45:09,384 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-06-26 02:45:09,384 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-06-26 02:45:10,002 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-06-26 02:45:10,002 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-06-26 02:45:10,002 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-06-26 02:45:10,587 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-06-26 02:45:10,587 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-06-26 02:45:10,587 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-06-26 02:45:11,224 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-06-26 02:45:11,224 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-06-26 02:45:11,224 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-06-26 02:45:11,815 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-06-26 02:45:11,815 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-06-26 02:45:11,815 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-06-26 02:45:12,435 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-06-26 02:45:12,435 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-06-26 02:45:12,435 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-06-26 02:45:13,072 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-06-26 02:45:13,085 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=0, insights_synced=20
+2026-06-26 02:45:13,085 | INFO | main | Sync completed: {'posts_synced': 0, 'insights_synced': 20, 'account': 'dentalb_ku'}
+2026-06-26 02:55:39,749 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:55:39,749 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:55:46,260 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:55:46,261 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 7 snapshots
+2026-06-26 02:55:47,290 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:55:47,290 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:55:47,292 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:55:47,292 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:55:50,126 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-26 02:55:50,126 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-26 02:55:50,127 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-26 02:55:50,128 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-26 02:55:51,256 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-26 02:56:53,161 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 20:50:49,928 | INFO | scheduler | Running scheduled monitoring job
+2026-06-27 20:50:49,928 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-27 20:50:49,942 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:50:49,943 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 20:50:49,946 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:50:49,949 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:50:49,951 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:50:49,952 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 20:50:49,959 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-27 (engagement=1.63%, posts_this_week=1)
+2026-06-27 20:50:49,961 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-27 20:50:49,961 | INFO | scheduler | No alerts — account performing normally
+2026-06-27 20:50:49,962 | INFO | scheduler | Job complete
+2026-06-27 20:50:49,963 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-27 20:50:49,971 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:50:49,974 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 20:50:49,976 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:50:49,980 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:50:49,984 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:50:49,985 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 20:50:49,987 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T20:50:49
+2026-06-27 20:50:50,455 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 20:55:11,711 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:55:11,713 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:55:11,714 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:55:11,715 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:56:05,353 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:56:05,354 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:56:05,368 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:56:05,371 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:56:08,334 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 20:56:31,647 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 20:56:34,561 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:56:34,562 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:56:34,564 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:56:34,566 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:56:41,016 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:56:41,018 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:56:41,020 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:56:41,022 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:56:43,522 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:56:43,524 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:58:09,801 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:58:09,804 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:58:19,198 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 20:58:23,690 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 20:58:25,119 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:58:25,121 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:58:25,123 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:58:25,124 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:58:30,375 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 20:58:30,378 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 20:58:30,380 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 20:58:30,381 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 20:58:31,436 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:58:31,439 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:58:44,989 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 20:58:44,991 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:13:18,820 | INFO | scheduler | Running scheduled monitoring job
+2026-06-27 21:13:18,822 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-27 21:13:18,826 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:13:18,828 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:13:18,829 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:13:18,832 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:13:18,835 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:13:18,835 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:13:18,857 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-27 (engagement=1.63%, posts_this_week=1)
+2026-06-27 21:13:18,857 | INFO | monitoring | Monitoring complete: 0 alerts generated
+2026-06-27 21:13:18,860 | INFO | scheduler | No alerts — account performing normally
+2026-06-27 21:13:18,861 | INFO | scheduler | Job complete
+2026-06-27 21:13:18,861 | INFO | scheduler | Scheduler started — monitoring every 24 hours
+2026-06-27 21:13:18,869 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:13:18,869 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:13:18,875 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:13:18,875 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:13:18,881 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:13:18,881 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:13:18,883 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T21:13:18
+2026-06-27 21:13:19,114 | INFO | metrics | top_performing_posts(17841409576371357, limit=5) returned 5 posts
+2026-06-27 21:16:22,342 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:16:22,345 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:16:22,349 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:16:22,350 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:16:32,921 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:16:32,926 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:16:32,928 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:16:32,930 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:16:34,738 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:16:34,747 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:16:47,254 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:16:47,254 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:16:49,741 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:16:49,741 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:16:49,744 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:16:49,744 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:16:49,750 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:16:49,750 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:16:49,753 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T21:16:49
+2026-06-27 21:16:49,753 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-27 21:17:49,606 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:17:49,607 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:17:49,607 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:17:49,612 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:17:49,615 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:17:49,615 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:17:49,618 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T21:17:49
+2026-06-27 21:17:49,622 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-27 21:25:19,763 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:25:19,766 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:25:19,768 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:25:19,770 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:29:25,308 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:29:25,308 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:29:25,313 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:29:25,313 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:29:26,767 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:29:26,770 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:31:14,654 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:31:14,654 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:31:19,567 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.63% (23 posts)
+2026-06-27 21:31:19,567 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:31:19,567 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:31:19,567 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:31:19,575 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:31:19,576 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:31:19,576 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T21:31:19
+2026-06-27 21:31:19,576 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3919 characters
+2026-06-27 21:34:35,376 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:34:35,376 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:57:37,655 | INFO | sync_service | Fetching account profile...
+2026-06-27 21:57:39,221 | INFO | sync_service | Fetching recent media...
+2026-06-27 21:57:40,454 | INFO | sync_service | Retrieved 20 posts for account dentalb_ku
+2026-06-27 21:57:40,468 | INFO | sync_service | Account saved: dentalb_ku (id=17841409576371357)
+2026-06-27 21:57:40,468 | INFO | sync_service | Post skipped (already exists): 18119621254745546
+2026-06-27 21:57:40,468 | INFO | sync_service | Fetching insights for post: 18119621254745546
+2026-06-27 21:57:41,402 | INFO | sync_service | Insights saved for post: 18119621254745546
+2026-06-27 21:57:41,402 | INFO | sync_service | Post skipped (already exists): 18447054280141305
+2026-06-27 21:57:41,402 | INFO | sync_service | Fetching insights for post: 18447054280141305
+2026-06-27 21:57:42,233 | INFO | sync_service | Insights saved for post: 18447054280141305
+2026-06-27 21:57:42,238 | INFO | sync_service | Post skipped (already exists): 18252569503306786
+2026-06-27 21:57:42,238 | INFO | sync_service | Fetching insights for post: 18252569503306786
+2026-06-27 21:57:43,372 | INFO | sync_service | Insights saved for post: 18252569503306786
+2026-06-27 21:57:43,372 | INFO | sync_service | Post skipped (already exists): 17861066040071611
+2026-06-27 21:57:43,372 | INFO | sync_service | Fetching insights for post: 17861066040071611
+2026-06-27 21:57:44,643 | INFO | sync_service | Insights saved for post: 17861066040071611
+2026-06-27 21:57:44,645 | INFO | sync_service | Post skipped (already exists): 17980298879439026
+2026-06-27 21:57:44,645 | INFO | sync_service | Fetching insights for post: 17980298879439026
+2026-06-27 21:57:45,358 | INFO | sync_service | Insights saved for post: 17980298879439026
+2026-06-27 21:57:45,358 | INFO | sync_service | Post skipped (already exists): 18089855887321402
+2026-06-27 21:57:45,358 | INFO | sync_service | Fetching insights for post: 18089855887321402
+2026-06-27 21:57:46,232 | INFO | sync_service | Insights saved for post: 18089855887321402
+2026-06-27 21:57:46,232 | INFO | sync_service | Post skipped (already exists): 17952055330919778
+2026-06-27 21:57:46,232 | INFO | sync_service | Fetching insights for post: 17952055330919778
+2026-06-27 21:57:47,046 | INFO | sync_service | Insights saved for post: 17952055330919778
+2026-06-27 21:57:47,051 | INFO | sync_service | Post skipped (already exists): 17934954896160706
+2026-06-27 21:57:47,051 | INFO | sync_service | Fetching insights for post: 17934954896160706
+2026-06-27 21:57:48,138 | INFO | sync_service | Insights saved for post: 17934954896160706
+2026-06-27 21:57:48,138 | INFO | sync_service | Post skipped (already exists): 17875588466701753
+2026-06-27 21:57:48,138 | INFO | sync_service | Fetching insights for post: 17875588466701753
+2026-06-27 21:57:49,151 | INFO | sync_service | Insights saved for post: 17875588466701753
+2026-06-27 21:57:49,151 | INFO | sync_service | Post skipped (already exists): 18002804026445081
+2026-06-27 21:57:49,151 | INFO | sync_service | Fetching insights for post: 18002804026445081
+2026-06-27 21:57:50,309 | INFO | sync_service | Insights saved for post: 18002804026445081
+2026-06-27 21:57:50,309 | INFO | sync_service | Post skipped (already exists): 17938966907132068
+2026-06-27 21:57:50,309 | INFO | sync_service | Fetching insights for post: 17938966907132068
+2026-06-27 21:57:51,503 | INFO | sync_service | Insights saved for post: 17938966907132068
+2026-06-27 21:57:51,503 | INFO | sync_service | Post skipped (already exists): 18041639662331282
+2026-06-27 21:57:51,503 | INFO | sync_service | Fetching insights for post: 18041639662331282
+2026-06-27 21:57:52,483 | INFO | sync_service | Insights saved for post: 18041639662331282
+2026-06-27 21:57:52,483 | INFO | sync_service | Post skipped (already exists): 18039320107337219
+2026-06-27 21:57:52,483 | INFO | sync_service | Fetching insights for post: 18039320107337219
+2026-06-27 21:57:53,358 | INFO | sync_service | Insights saved for post: 18039320107337219
+2026-06-27 21:57:53,358 | INFO | sync_service | Post skipped (already exists): 18000092275392781
+2026-06-27 21:57:53,358 | INFO | sync_service | Fetching insights for post: 18000092275392781
+2026-06-27 21:57:54,311 | INFO | sync_service | Insights saved for post: 18000092275392781
+2026-06-27 21:57:54,313 | INFO | sync_service | Post skipped (already exists): 17991685570458199
+2026-06-27 21:57:54,313 | INFO | sync_service | Fetching insights for post: 17991685570458199
+2026-06-27 21:57:55,394 | INFO | sync_service | Insights saved for post: 17991685570458199
+2026-06-27 21:57:55,394 | INFO | sync_service | Post skipped (already exists): 17869210028581339
+2026-06-27 21:57:55,394 | INFO | sync_service | Fetching insights for post: 17869210028581339
+2026-06-27 21:57:56,511 | INFO | sync_service | Insights saved for post: 17869210028581339
+2026-06-27 21:57:56,511 | INFO | sync_service | Post skipped (already exists): 18196052563098167
+2026-06-27 21:57:56,511 | INFO | sync_service | Fetching insights for post: 18196052563098167
+2026-06-27 21:57:57,842 | INFO | sync_service | Insights saved for post: 18196052563098167
+2026-06-27 21:57:57,842 | INFO | sync_service | Post skipped (already exists): 18237570082017449
+2026-06-27 21:57:57,842 | INFO | sync_service | Fetching insights for post: 18237570082017449
+2026-06-27 21:57:58,540 | INFO | sync_service | Insights saved for post: 18237570082017449
+2026-06-27 21:57:58,540 | INFO | sync_service | Post skipped (already exists): 17979984439370368
+2026-06-27 21:57:58,540 | INFO | sync_service | Fetching insights for post: 17979984439370368
+2026-06-27 21:57:59,621 | INFO | sync_service | Insights saved for post: 17979984439370368
+2026-06-27 21:57:59,621 | INFO | sync_service | Post skipped (already exists): 17886069884248214
+2026-06-27 21:57:59,621 | INFO | sync_service | Fetching insights for post: 17886069884248214
+2026-06-27 21:58:00,351 | INFO | sync_service | Insights saved for post: 17886069884248214
+2026-06-27 21:58:00,372 | INFO | sync_service | Sync completed: account=dentalb_ku, posts_synced=0, insights_synced=20
+2026-06-27 21:58:00,468 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.64% (23 posts)
+2026-06-27 21:58:00,468 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:58:00,475 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:58:00,475 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:58:00,482 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:58:00,482 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:58:00,482 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T21:58:00
+2026-06-27 21:58:00,496 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:58:00,498 | INFO | trend_analysis | get_performance_trend(17841409576371357, days=30) returned 8 snapshots
+2026-06-27 21:58:06,183 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.64% (23 posts)
+2026-06-27 21:58:06,185 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:58:06,185 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:58:06,185 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:58:06,192 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:58:06,192 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:58:06,194 | INFO | report_builder | build_report(17841409576371357) for @dentalb_ku at 2026-06-27T21:58:06
+2026-06-27 21:58:06,194 | INFO | report_builder | build_prompt_context(@dentalb_ku) produced 3921 characters
+2026-06-27 21:59:48,599 | INFO | monitoring | Starting daily monitoring for account_id=17841409576371357
+2026-06-27 21:59:48,601 | INFO | metrics | avg_engagement_rate(17841409576371357) = 1.64% (23 posts)
+2026-06-27 21:59:48,606 | INFO | metrics | top_performing_posts(17841409576371357, limit=3) returned 3 posts
+2026-06-27 21:59:48,608 | INFO | metrics | posting_frequency(17841409576371357) = 0.08 posts/week over 286.14 weeks
+2026-06-27 21:59:48,609 | INFO | metrics | best_posting_day(17841409576371357) = Saturday (avg 1.89%)
+2026-06-27 21:59:48,611 | INFO | metrics | content_type_performance(17841409576371357) = 2 media types
+2026-06-27 21:59:48,611 | INFO | analysis | analyze_account(17841409576371357) completed for @dentalb_ku with 5 insights
+2026-06-27 21:59:48,623 | INFO | monitoring | Snapshot saved for 17841409576371357 on 2026-06-27 (engagement=1.64%, posts_this_week=1)
+2026-06-27 21:59:48,629 | INFO | monitoring | Monitoring complete: 0 alerts generated

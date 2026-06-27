@@ -9,6 +9,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import anthropic
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -19,7 +20,20 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.ai.strategy_generator import generate_strategy  # noqa: E402
-from app.ai.weekly_planner import coming_week_bounds, generate_weekly_plan  # noqa: E402
+from app.ai.strategy_generator import (  # noqa: E402
+    SYSTEM_PROMPT as STRATEGY_PROMPT,
+    MODEL as STRATEGY_MODEL,
+)
+# from app.ai.weekly_planner import coming_week_bounds, generate_weekly_plan
+from app.ai.performance_advisor import generate_performance_advice  # noqa: E402
+from app.ai.performance_advisor import (  # noqa: E402
+    SYSTEM_PROMPT as ADVISOR_PROMPT,
+    MODEL as ADVISOR_MODEL,
+)
+# from app.notifications.email_sender import send_weekly_plan_email
+from app.analytics.scheduler import start_scheduler, get_scheduler_status  # noqa: E402
+from app.analytics.monitoring import run_daily_monitoring, save_daily_snapshot  # noqa: E402
+from app.analytics.trend_analysis import get_performance_trend, get_trend_summary  # noqa: E402
 from app.analytics.metrics import (  # noqa: E402
     avg_engagement_rate,
     best_posting_day,
@@ -27,7 +41,9 @@ from app.analytics.metrics import (  # noqa: E402
     posting_frequency,
     top_performing_posts,
 )
-from app.analytics.report_builder import build_report  # noqa: E402
+from app.analytics.analysis import analyze_account  # noqa: E402
+from app.analytics.report_builder import build_report, build_prompt_context  # noqa: E402
+from app.config import load_settings  # noqa: E402
 from app.analytics.sync_service import sync_account_data  # noqa: E402
 from app.api.meta_client import MetaClient  # noqa: E402
 from app.database.connection import get_connection, init_db  # noqa: E402
@@ -49,7 +65,7 @@ BENCHMARK_ENGAGEMENT_LOW = 1.0
 BENCHMARK_ENGAGEMENT_HIGH = 3.0
 BENCHMARK_POSTS_PER_WEEK = 3.0
 
-PAGES = ("Overview", "Post Analysis", "AI Strategy", "📅 Plani Javor")
+PAGES = ("Overview", "Post Analysis", "Trends", "AI Strategy", "Performance Advisor")
 
 
 def _inject_styles() -> None:
@@ -345,10 +361,16 @@ def _load_posts_for_chart(account_id: str) -> pd.DataFrame:
     return pd.DataFrame(data)
 
 
-@st.cache_data(ttl=60)
+@st.cache_data(ttl=3600)
 def _load_report(account_id: str) -> dict:
     init_db()
     return build_report(account_id)
+
+
+@st.cache_data(ttl=3600)
+def _load_analysis(account_id: str) -> dict:
+    init_db()
+    return analyze_account(account_id)
 
 
 def _engagement_context(rate: float) -> tuple[str, str]:
@@ -425,6 +447,23 @@ def _render_sidebar(
             label_visibility="collapsed",
         )
         st.session_state["nav_page"] = page
+
+        st.markdown('<div class="sidebar-section">Monitoring</div>',
+                    unsafe_allow_html=True)
+        status = get_scheduler_status()
+        next_run = status.get("next_run", "unknown")
+        st.caption("🟢 Auto-monitoring active")
+        st.caption(f"Next check: {next_run}")
+
+        if st.button("▶ Run Check Now", use_container_width=True):
+            with st.spinner("Running monitoring check..."):
+                result = run_daily_monitoring(ACCOUNT_ID)
+            alerts = result.get("alerts", [])
+            if alerts:
+                for alert in alerts:
+                    st.warning(f"⚠️ {alert['message']}")
+            else:
+                st.success("✅ Everything looks normal")
 
     return page
 
@@ -554,6 +593,31 @@ def _page_overview(report: dict, username: str) -> None:
             },
         )
 
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown(
+        '<p class="page-title" style="font-size:1.15rem;">Recent Alerts</p>',
+        unsafe_allow_html=True,
+    )
+
+    with get_connection() as conn:
+        alert_rows = conn.execute(
+            """SELECT alert_type, message, metric_value,
+                      metric_previous, sent_at
+               FROM alerts
+               WHERE account_id = ?
+               ORDER BY sent_at DESC LIMIT 5""",
+            (ACCOUNT_ID,),
+        ).fetchall()
+
+    if alert_rows:
+        for row in alert_rows:
+            if "drop" in row["alert_type"] or "inactivity" in row["alert_type"]:
+                st.warning(f"⚠️ {row['message']} — {row['sent_at'][:10]}")
+            else:
+                st.success(f"📈 {row['message']} — {row['sent_at'][:10]}")
+    else:
+        st.caption("No alerts yet — monitoring is active.")
+
 
 def _page_post_analysis(report: dict, username: str) -> None:
     st.markdown('<p class="page-title">Post Analysis</p>', unsafe_allow_html=True)
@@ -622,10 +686,34 @@ def _page_post_analysis(report: dict, username: str) -> None:
             st.caption("Run sync to populate insights.")
 
 
+def _stream_strategy() -> None:
+    report = build_report(ACCOUNT_ID)
+    context = build_prompt_context(report)
+
+    client = anthropic.Anthropic(api_key=load_settings().anthropic_api_key)
+    strategy_placeholder = st.empty()
+    full_text = ""
+    with client.messages.stream(
+        model=STRATEGY_MODEL,
+        max_tokens=4096,
+        system=STRATEGY_PROMPT,
+        messages=[{"role": "user", "content": context}],
+    ) as stream:
+        for text in stream.text_stream:
+            full_text += text
+            strategy_placeholder.markdown(full_text + "▌")
+
+    strategy_placeholder.markdown(full_text)
+    st.session_state["strategy"] = full_text
+    st.session_state["strategy_generated_at"] = datetime.now().isoformat()
+    st.session_state["strategy_copied"] = False
+
+
 def _page_ai_strategy(report: dict, username: str) -> None:
     st.markdown('<p class="page-title">AI Growth Strategy</p>', unsafe_allow_html=True)
     st.markdown(
-        f'<p class="page-subtitle">Data-driven recommendations for @{username}</p>',
+        '<p class="page-subtitle">One-time comprehensive analysis and '
+        'growth roadmap for your account</p>',
         unsafe_allow_html=True,
     )
 
@@ -648,22 +736,15 @@ def _page_ai_strategy(report: dict, username: str) -> None:
     if st.session_state.get("trigger_strategy"):
         st.session_state["trigger_strategy"] = False
         try:
-            with st.spinner("Analyzing data and generating strategy..."):
-                result = generate_strategy(ACCOUNT_ID)
-            st.session_state["strategy"] = result["strategy"]
-            st.session_state["strategy_generated_at"] = result["generated_at"]
-            st.session_state["strategy_copied"] = False
+            _stream_strategy()
+            st.rerun()
         except Exception as exc:  # noqa: BLE001
             st.error(f"Strategy generation failed: {exc}")
 
     if not st.session_state.get("strategy"):
         if st.button("Generate Strategy", type="primary", use_container_width=False):
             try:
-                with st.spinner("Analyzing data and generating strategy..."):
-                    result = generate_strategy(ACCOUNT_ID)
-                st.session_state["strategy"] = result["strategy"]
-                st.session_state["strategy_generated_at"] = result["generated_at"]
-                st.session_state["strategy_copied"] = False
+                _stream_strategy()
                 st.rerun()
             except Exception as exc:  # noqa: BLE001
                 st.error(f"Strategy generation failed: {exc}")
@@ -673,60 +754,280 @@ def _page_ai_strategy(report: dict, username: str) -> None:
         st.markdown('<div class="strategy-box">', unsafe_allow_html=True)
         st.markdown(st.session_state["strategy"])
         st.markdown("</div>", unsafe_allow_html=True)
-        if st.button("📋 Kopjo Strategjinë", use_container_width=False):
+        if st.button("📋 Copy Strategy", use_container_width=False):
             st.session_state["strategy_copied"] = True
         if st.session_state.get("strategy_copied"):
-            st.success("Kopjuar!")
+            st.success("Copied!")
 
 
-def _page_weekly_plan(report: dict, username: str) -> None:
-    st.markdown('<p class="page-title">📅 Plani Javor</p>', unsafe_allow_html=True)
+# def _generate_weekly_plan_with_progress() -> dict:
+#     progress = st.progress(0, text="Loading account data...")
+#     _load_report(ACCOUNT_ID)
+#     progress.progress(33, text="Analyzing performance patterns...")
+#     _load_analysis(ACCOUNT_ID)
+#     progress.progress(66, text="Generating weekly plan with AI...")
+#     result = generate_weekly_plan(ACCOUNT_ID)
+#     progress.progress(100, text="Done!")
+#     progress.empty()
+#     return result
+
+
+# def _page_weekly_plan(report: dict, username: str) -> None:
+#     st.markdown('<p class="page-title">Weekly Plan</p>', unsafe_allow_html=True)
+#     st.markdown(
+#         '<p class="page-subtitle">Concrete weekly action plan with '
+#         'ready-to-use captions and hashtags. New plan each week.</p>',
+#         unsafe_allow_html=True,
+#     )
+#
+#     week_start, week_end = coming_week_bounds()
+#     st.markdown(
+#         f"""
+#         <div class="info-card">
+#             <strong>Upcoming Week</strong><br>
+#             {week_start.strftime("%d %b %Y")} (Monday) &nbsp;→&nbsp;
+#             {week_end.strftime("%d %b %Y")} (Sunday)
+#         </div>
+#         """,
+#         unsafe_allow_html=True,
+#     )
+#
+#     if not st.session_state.get("weekly_plan"):
+#         if st.button("🗓️ Generate Weekly Plan", type="primary"):
+#             try:
+#                 result = _generate_weekly_plan_with_progress()
+#                 st.session_state["weekly_plan"] = result["plan"]
+#                 st.session_state["weekly_plan_result"] = result
+#                 st.session_state["weekly_plan_generated_at"] = result["generated_at"]
+#                 st.session_state["weekly_plan_week"] = (
+#                     f"{result['week_start']} → {result['week_end']}"
+#                 )
+#                 st.rerun()
+#             except Exception as exc:  # noqa: BLE001
+#                 st.error(f"Plan generation failed: {exc}")
+#     else:
+#         generated_at = st.session_state.get("weekly_plan_generated_at", "")
+#         week_label = st.session_state.get("weekly_plan_week", "")
+#         st.caption(f"Generated: {generated_at} · Week: {week_label}")
+#         st.markdown('<div class="strategy-box">', unsafe_allow_html=True)
+#         st.markdown(st.session_state["weekly_plan"])
+#         st.markdown("</div>", unsafe_allow_html=True)
+#
+#         if st.button("🗓️ Regenerate Plan", use_container_width=False):
+#             st.session_state.pop("weekly_plan", None)
+#             st.session_state.pop("weekly_plan_result", None)
+#             st.rerun()
+#
+#         st.markdown("---")
+#         st.markdown("**📧 Send this plan via email**")
+#         recipient_email = st.text_input(
+#             "Recipient email address",
+#             key="weekly_plan_recipient",
+#             placeholder="name@example.com",
+#         )
+#         if st.button("📧 Send Weekly Plan via Email", type="primary"):
+#             if not recipient_email or "@" not in recipient_email:
+#                 st.warning("Please enter a valid email address.")
+#             else:
+#                 with st.spinner("Sending email..."):
+#                     sent = send_weekly_plan_email(
+#                         ACCOUNT_ID,
+#                         recipient_email,
+#                         plan=st.session_state.get("weekly_plan_result"),
+#                     )
+#                 if sent:
+#                     st.success(f"✅ Weekly plan sent to {recipient_email}!")
+#                 else:
+#                     st.error("❌ Failed to send email. Check your Gmail settings.")
+
+
+def _page_performance_advisor(report: dict, username: str) -> None:
+    st.markdown('<p class="page-title">Performance Advisor</p>', unsafe_allow_html=True)
     st.markdown(
-        f'<p class="page-subtitle">Plan konkret javor për @{username} — Dental-B</p>',
+        f'<p class="page-subtitle">Data-driven diagnosis and concrete recommendations for @{username}</p>',
         unsafe_allow_html=True,
     )
 
-    week_start, week_end = coming_week_bounds()
-    st.markdown(
-        f"""
-        <div class="info-card">
-            <strong>Java në vijim</strong><br>
-            {week_start.strftime("%d %b %Y")} (E Hënë) &nbsp;→&nbsp;
-            {week_end.strftime("%d %b %Y")} (E Diel)
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    summary = report["account_summary"]
+    frequency = report.get("posting_frequency_detail", {})
+    posts_per_week = frequency.get("posts_per_week", report["patterns"]["posts_per_week"])
+    best_day_data = report.get("best_posting_day", {})
+    patterns = report.get("patterns", {})
 
-    if not st.session_state.get("weekly_plan"):
-        if st.button("🗓️ Gjenero Planin e Javës", type="primary"):
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        _kpi_card("📈", "Avg Engagement", f"{summary['avg_engagement_rate']}%",
+                  "Average across all posts")
+    with c2:
+        _kpi_card("📅", "Posts/Week", str(posts_per_week),
+                  "Current frequency")
+    with c3:
+        _kpi_card("🏆", "Best Day", best_day_data.get("day") or "—",
+                  f"{best_day_data.get('avg_engagement_rate', 0)}% avg engagement")
+    with c4:
+        _kpi_card("🎬", "Best Format", patterns.get("best_content_type") or "—",
+                  "Based on avg engagement")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    if not st.session_state.get("performance_advice"):
+        if st.button("🔍 Analyze Performance", type="primary"):
             try:
-                with st.spinner("Duke gjeneruar planin javor..."):
-                    result = generate_weekly_plan(ACCOUNT_ID)
-                st.session_state["weekly_plan"] = result["plan"]
-                st.session_state["weekly_plan_generated_at"] = result["generated_at"]
-                st.session_state["weekly_plan_week"] = (
-                    f"{result['week_start']} → {result['week_end']}"
-                )
-                st.rerun()
-            except Exception as exc:  # noqa: BLE001
-                st.error(f"Gjenerimi i planit dështoi: {exc}")
-    else:
-        generated_at = st.session_state.get("weekly_plan_generated_at", "")
-        week_label = st.session_state.get("weekly_plan_week", "")
-        st.caption(f"Gjeneruar: {generated_at} · Java: {week_label}")
-        st.markdown('<div class="strategy-box">', unsafe_allow_html=True)
-        st.markdown(st.session_state["weekly_plan"])
-        st.markdown("</div>", unsafe_allow_html=True)
+                report = build_report(ACCOUNT_ID)
+                context = build_prompt_context(report)
+                # append diagnosis request
+                summary = report["account_summary"]
+                frequency = report.get("posting_frequency_detail", {})
+                context += f"""
 
-        col_a, col_b = st.columns(2)
-        with col_a:
-            if st.button("🗓️ Rigjenero Planin", use_container_width=True):
-                st.session_state.pop("weekly_plan", None)
+=== DIAGNOSIS REQUEST ===
+Do NOT suggest captions or weekly plans.
+Diagnose: Is {summary['avg_engagement_rate']}% engagement good or bad for this account size?
+Is {frequency.get('posts_per_week', 0)} posts/week optimal?
+What does the gap between total_posts={summary['total_posts']} and synced_posts={summary['synced_posts_in_db']} tell us?
+Which content type should they double down on based on the breakdown data?
+"""
+
+                client = anthropic.Anthropic(api_key=load_settings().anthropic_api_key)
+                advice_placeholder = st.empty()
+                full_text = ""
+                with client.messages.stream(
+                    model=ADVISOR_MODEL,
+                    max_tokens=2048,
+                    system=ADVISOR_PROMPT,
+                    messages=[{"role": "user", "content": context}],
+                ) as stream:
+                    for text in stream.text_stream:
+                        full_text += text
+                        advice_placeholder.markdown(full_text + "▌")
+
+                advice_placeholder.markdown(full_text)
+                st.session_state["performance_advice"] = full_text
+                st.session_state["performance_advice_at"] = datetime.now().isoformat()
                 st.rerun()
-        with col_b:
-            if st.button("📧 Dërgo me Email", use_container_width=True):
-                st.info("Dërgimi me email do të implementohet së shpejti.")
+            except Exception as exc:
+                st.error(f"Generation failed: {exc}")
+    else:
+        generated_at = st.session_state.get("performance_advice_at", "")
+        st.caption(f"Generated: {generated_at}")
+        st.markdown('<div class="strategy-box">', unsafe_allow_html=True)
+        st.markdown(st.session_state["performance_advice"])
+        st.markdown("</div>", unsafe_allow_html=True)
+        if st.button("🔄 Re-analyze", use_container_width=False):
+            st.session_state.pop("performance_advice", None)
+            st.session_state.pop("performance_advice_at", None)
+            st.rerun()
+
+
+def _page_trends(username: str) -> None:
+    st.markdown('<p class="page-title">Performance Trends</p>',
+                unsafe_allow_html=True)
+    st.markdown(
+        f'<p class="page-subtitle">Historical performance tracking for @{username}</p>',
+        unsafe_allow_html=True,
+    )
+
+    days_option = st.radio(
+        "Time period",
+        [7, 30, 90],
+        format_func=lambda x: f"Last {x} days",
+        horizontal=True,
+        index=1,
+    )
+
+    trend_data = get_performance_trend(ACCOUNT_ID, days=days_option)
+    summary = get_trend_summary(ACCOUNT_ID, days=days_option)
+
+    if not summary.get("has_data"):
+        st.info(summary.get(
+            "message",
+            "Not enough data yet. Run monitoring daily to build trend history.",
+        ))
+        st.markdown("### How to build trend data")
+        st.markdown(
+            "Click **▶ Run Check Now** in the sidebar daily. "
+            "After 2+ days of data, trends will appear here."
+        )
+        return
+
+    # Summary KPI row
+    direction_icon = "📈" if summary["trend_direction"] == "up" else \
+                     "📉" if summary["trend_direction"] == "down" else "➡️"
+    change_class = "success" if summary["engagement_change"] >= 0 else "danger"
+
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        _kpi_card(
+            direction_icon,
+            "Engagement Trend",
+            f"{summary['engagement_end']}%",
+            f"{'+' if summary['engagement_change'] >= 0 else ''}"
+            f"{summary['engagement_change']}% vs {summary['days_tracked']} days ago",
+            change_class,
+        )
+    with c2:
+        _kpi_card(
+            "👥",
+            "Followers Change",
+            f"{'+' if summary['followers_change'] >= 0 else ''}"
+            f"{summary['followers_change']}",
+            f"{summary['followers_start']} → {summary['followers_end']}",
+        )
+    with c3:
+        _kpi_card(
+            "📅",
+            "Avg Posts/Week",
+            str(summary["avg_posts_per_week"]),
+            f"Over {summary['snapshots_count']} days tracked",
+        )
+    with c4:
+        _kpi_card(
+            "📊",
+            "Data Points",
+            str(summary["snapshots_count"]),
+            f"{summary['first_date']} → {summary['last_date']}",
+        )
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    if trend_data:
+        df = pd.DataFrame(trend_data)
+
+        # Engagement trend chart
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(
+            x=df["snapshot_date"],
+            y=df["avg_engagement_rate"],
+            mode="lines+markers",
+            name="Engagement Rate",
+            line=dict(color="#405DE6", width=2),
+            marker=dict(size=8, color="#405DE6"),
+            hovertemplate=(
+                "Date: %{x}<br>"
+                "Engagement: %{y:.2f}%<extra></extra>"
+            ),
+        ))
+        fig = _plotly_light(fig, "Engagement Rate Trend")
+        fig.update_xaxes(title="Date")
+        fig.update_yaxes(title="Engagement Rate (%)")
+        st.plotly_chart(fig, use_container_width=True)
+
+        # Posts per week trend chart
+        fig2 = go.Figure()
+        fig2.add_trace(go.Bar(
+            x=df["snapshot_date"],
+            y=df["posts_this_week"],
+            name="Posts This Week",
+            marker_color="#405DE6",
+            hovertemplate=(
+                "Date: %{x}<br>"
+                "Posts: %{y}<extra></extra>"
+            ),
+        ))
+        fig2 = _plotly_light(fig2, "Posts Per Week Over Time")
+        fig2.update_xaxes(title="Date")
+        fig2.update_yaxes(title="Posts Count")
+        st.plotly_chart(fig2, use_container_width=True)
 
 
 def main() -> None:
@@ -740,6 +1041,10 @@ def main() -> None:
 
     if "nav_page" not in st.session_state:
         st.session_state["nav_page"] = "Overview"
+
+    if "scheduler_started" not in st.session_state:
+        start_scheduler()
+        st.session_state["scheduler_started"] = True
 
     try:
         report = _load_report(ACCOUNT_ID)
@@ -758,10 +1063,12 @@ def main() -> None:
         _page_overview(report, username)
     elif page == "Post Analysis":
         _page_post_analysis(report, username)
+    elif page == "Trends":
+        _page_trends(username)
     elif page == "AI Strategy":
         _page_ai_strategy(report, username)
-    elif page == "📅 Plani Javor":
-        _page_weekly_plan(report, username)
+    elif page == "Performance Advisor":
+        _page_performance_advisor(report, username)
 
 
 if __name__ == "__main__":

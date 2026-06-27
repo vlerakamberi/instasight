@@ -44,19 +44,15 @@ def generate_strategy(account_id: str) -> Dict[str, Any]:
     logger.info("Generating strategy for @%s (account_id=%s)", username, account_id)
 
     client = anthropic.Anthropic(api_key=settings.anthropic_api_key)
-    response = client.messages.create(
+    with client.messages.stream(
         model=MODEL,
         max_tokens=4096,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": context}],
-    )
+    ) as stream:
+        full_text = stream.get_final_text()
 
-    strategy_text = ""
-    for block in response.content:
-        if block.type == "text":
-            strategy_text += block.text
-
-    strategy_text = strategy_text.strip()
+    strategy_text = full_text.strip()
     generated_at = datetime.now().replace(microsecond=0).isoformat()
 
     result = {

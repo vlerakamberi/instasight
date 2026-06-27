@@ -13,6 +13,8 @@ class Settings:
     instagram_access_token: str
     redirect_uri: str
     anthropic_api_key: str
+    gmail_address: str
+    gmail_app_password: str
 
 
 def load_settings() -> Settings:
@@ -29,6 +31,8 @@ def load_settings() -> Settings:
         instagram_access_token=os.getenv("INSTAGRAM_ACCESS_TOKEN", "").strip(),
         redirect_uri=os.getenv("REDIRECT_URI", "").strip(),
         anthropic_api_key=os.getenv("ANTHROPIC_API_KEY", "").strip(),
+        gmail_address=os.getenv("GMAIL_ADDRESS", "").strip(),
+        gmail_app_password=os.getenv("GMAIL_APP_PASSWORD", "").strip(),
     )
 
     missing = []
